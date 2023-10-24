@@ -1,38 +1,106 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
 
-/* bootstrap functions */
+/* bootstrap core */
 @import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
 
 /* custom variables */
 @import "./scss/variables";
 
-/* bootstrap variables */
-@import "bootstrap/scss/variables";
-@import "bootstrap/scss/variables-dark";
-
 /* required bootstrap */
 @import "bootstrap/scss/maps";
 @import "bootstrap/scss/mixins";
-@import "bootstrap/scss/root";
-
-/* optional bootstrap */
-@import "bootstrap/scss/utilities";
 @import "bootstrap/scss/reboot";
-@import "bootstrap/scss/type";
-@import "bootstrap/scss/images";
-@import "bootstrap/scss/containers";
-@import "bootstrap/scss/grid";
-@import "bootstrap/scss/helpers";
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/utilities";
 @import "bootstrap/scss/utilities/api";
 
-/* custom components */
+/* optional bootstrap */
+@import "bootstrap/scss/badge";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/forms";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/helpers";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/modal";
+@import "bootstrap/scss/type";
 
+/* custom components */
+@import "./scss/forms";
+@import "./scss/footer";
+@import "./scss/header";
+@import "./scss/images";
 
 /* custom css*/
 body {
-    background: #191919;
     font-family: 'Mooli', sans-serif;
     color: #f2f2f2;
-    @include gradient-x(#101010, #141414, 0%, 100%);
+    @include gradient-x(#101010, #191919, 0%, 100%);
+}
+#app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+}
+.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+            line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.map {
+    transition: all .2s ease;
+    cursor: pointer;
+    &:hover {
+        background: $dark;
+    }
+}
+.zoom {
+    cursor: zoom-in;
+    &:hover {
+        img {
+            opacity: .5;
+        }
+    }
+    img {
+        transition: all .2s ease;
+    }
+}
+.play {
+    position: relative;
+    cursor: pointer;
+    &:after {
+        content: "";
+        width: 4rem;
+        height: 4rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-style: solid;
+        border-width: 2rem 0 2rem 4rem;
+        border-color: transparent transparent transparent #fff;
+        opacity: 0;
+        box-sizing: border-box;
+        transition: all .2s ease;
+    }
+    &:hover {
+        &:after {
+            opacity: 1;
+        }
+        img {
+            opacity: .5;
+        }
+    }
+    img {
+        transition: all .2s ease;
+    }
 }

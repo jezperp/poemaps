@@ -1,0 +1,28 @@
+.form-control {
+    border: 1px red solid;
+    padding: 1rem;
+    border: 0;
+    border-bottom: 2px #666 solid;
+    background: none;
+    color: #fff;
+    opacity: .8;
+    font-size: $font-size-base*1.5;
+    border-radius: 0;
+    &:focus {
+        background: none;
+        opacity: 1;
+        box-shadow: none;
+        border-color: #fff;
+        color: #fff;
+    }
+    &::placeholder {
+        color: #666;
+    }
+    &:after {
+        position: absolute;
+        top: 50%;
+        right: 1rem;
+        transform: translateY(-50%);
+        content: "x";
+    }
+}

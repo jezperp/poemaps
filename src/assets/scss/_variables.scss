@@ -1,1 +1,12 @@
 $font-family-base: 'Mooli', Helvetica, Arial, sans-serif;
+$primary: $red;
+$custom-colors: (
+    "primary": $primary,
+    "score-5": #198754,
+    "score-4": #20c997,
+    "score-3": #0dcaf0,
+    "score-2": #ffc107,
+    "score-1": #fd7e14,
+    "score-0": #dc3545
+);
+$theme-colors: map-merge($theme-colors, $custom-colors);

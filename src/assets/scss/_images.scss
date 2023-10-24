@@ -1,0 +1,17 @@
+.img {
+    &-xs {
+        max-width: clamp(1.25rem, 2.5vw, 2.5rem) !important;
+    }
+    &-sm {
+        max-width: clamp(2.5rem, 4vw, 4rem) !important;
+    }
+    &-md {
+        max-width: clamp(5rem, 10vw, 10rem) !important;
+    }
+    &-lg {
+        max-width: clamp(10rem, 15vw, 15rem) !important;
+    }
+    &-xl {
+        max-width: clamp(15rem, 20vw, 20rem) !important;
+    }
+}
