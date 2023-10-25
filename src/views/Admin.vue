@@ -1,5 +1,5 @@
 <template>
     <main>
-        About
+        Admin
     </main>
 </template>
