@@ -1,151 +1,140 @@
 <template>
     <div    id="maps"
-            class="pt-2">
-        <div    class="map p-4 rounded"
-                @click="show(map)"
-                v-for="(map, mkey) in filteredMaps"
+            class="pt-2"
+            v-if="store.getFilteredMaps">
+        <div    class="map p-3 rounded"
+                :class="{ active: store.getActiveMap && store.getActiveMap.name === map.name }"
+                @click="getMap(map)"
+                v-for="(map, mkey) in store.getFilteredMaps.value"
                 :key="mkey">
             <div class="row align-items-center">
                 <div class="col col-auto text-center">
-                    <img    :src="getImage(map.filename)"
-                            class="img-fluid img-sm"
-                            :alt="`${map.title} map`">
-                    <p class="small mb-0 pt-2">level: {{ map.level }}</p>
-                    <p class="small mb-0">tier: {{ map.tier }}</p>
+                    <div class="img">
+                        <form   id="fileForm"
+                                class="hidden"
+                                enctype="multipart/form-data"
+                                :data-name="map.name"
+                                @submit.prevent="upload"
+                                v-if="userStore.getUser">
+                            <label for="fileInput">
+                                <img    :src="map.fields.image.stringValue"
+                                        class="img-fluid img-sm"
+                                        :alt="`${map.fields.title.stringValue} map`"
+                                        v-if="map.fields.image.stringValue.length" />
+                            </label>
+                            <input type="file" name="filename" id="fileInput" @change="submitForm('fileForm')">
+                            <button type="submit"></button>
+                        </form>
+                        <img    :src="map.fields.image.stringValue"
+                                class="img-fluid img-sm"
+                                :alt="`${map.fields.title.stringValue} map`"
+                                v-else />
+                    </div>
+                    <p class="small mb-0 pt-2">level: {{ map.fields.level.integerValue }}</p>
+                    <p class="small mb-0">tier: {{ map.fields.tier.integerValue }}</p>
                 </div>
                 <div class="col">
-                    <h4>{{ map.title }}</h4>
-                    <p class="mb-0 truncate">{{ map.description ? map.description : 'No description yet...' }}</p>
+                    <h4>{{ map.fields.title.stringValue }}</h4>
+                    <p class="mb-0 truncate">{{ map.fields.description.stringValue.length ? map.fields.description.stringValue : 'No description yet...' }}</p>
                     <div class="badges pt-2">
                         <div    class="badge me-1"
-                                :class="`bg-${getClass(map.score.layout)}`">
+                                :class="`bg-score-${map.fields.score.arrayValue.values[0].integerValue}`">
                             layout
                         </div>
                         <div    class="badge me-1"
-                                :class="`bg-${getClass(map.score.dense)}`">
+                                :class="`bg-score-${map.fields.score.arrayValue.values[1].integerValue}`">
                             density
                         </div>
                         <div    class="badge me-1"
-                                :class="`bg-${getClass(map.score.div)}`">
+                                :class="`bg-score-${map.fields.score.arrayValue.values[2].integerValue}`">
                             cards
                         </div>
                         <div    class="badge"
-                                :class="`bg-${getClass(map.score.boss)}`">
+                                :class="`bg-score-${map.fields.score.arrayValue.values[3].integerValue}`">
                             boss
                         </div>
                     </div>
                 </div>
-                <div class="col col-3 d-none d-lg-flex">
-                    <img    :src="map.image"
-                            class="img-fluid"
-                            :alt="`${map.title} map`"
-                            v-if="map.image">
+                <div    class="col col-3 d-none d-lg-flex"
+                        v-if="map.fields.thumbnail.stringValue">
+                    <div class="ratio ratio-16x9 overflow-hidden">
+                        <img    :src="map.fields.thumbnail.stringValue"
+                                class="img-fluid img-center"
+                                :alt="`${map.fields.title.stringValue} map`">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div    class="modal fade"
-            id="mapModal"
-            tabindex="-1"
-            aria-labelledby="mapModalLabel"
-            aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-body bg-black">
-                <p>{{ activeMap }}</p>
-            </div>
-        </div>
-    </div>
+    <Modal  :id="userStore.getUser ? 'editMapModal' : 'mapModal'"
+            :map="store.getActiveMap"
+            :user="userStore.getUser ? userStore.getUser : null"
+            :show="showModal"
+            @close="showModal = false" />
 </template>
 <script setup>
-    import { ref, computed } from 'vue'
+    import { ref, computed, onMounted } from 'vue'
+    import axios from 'axios'
     import * as bootstrap from 'bootstrap'
+    import { useUserStore } from '@/stores/user'
+    const userStore = useUserStore()
+    import { useMapStore } from '@/stores/map'
+    const store = useMapStore()
+    import Modal from '@/components/Modal.vue'
     const props = defineProps({
         filter: {
             type: String,
             default: null
         }
     })
-    let activeMap = ref(null)
-    const mapsArr = ref([
-        {
-            title: `Academy`,
-            description: `It's a large maze with lots of dead ends. It use the Library tileset. The boss arena entrance is opened with a loose candle, like the entrance to The Archives in Act 3. It's a large room with book shelves, that seals when the boss is engaged. Contains up to three additional monster packs in the corners.`,
-            filename: `academy.png`,
-            image: `https://i.ytimg.com/vi/bcekUWw33pM/maxresdefault.jpg`,
-            video: `#video-url`,
-            level: 73,
-            tier: 6,
-            score: {
-                layout: 2,
-                dense: 2,
-                div: 1,
-                boss: 3
+    let showModal = ref(false)
+    function getMaps() {
+        store.getMaps()
+        .catch(err => {
+            console.log(err)
+        })
+    }
+    function getMap(map) {
+        const arr = map.name.split('/')
+        const id = arr[arr.length - 1]
+        store.getMap(id)
+        .then(() => {
+            showModal.value = true
+        })
+        .catch(err => {
+            console.log(err)
+        })
+    }
+    function submitForm(id) {
+        const form = document.getElementById(id)
+        form.requestSubmit()
+    }
+    function upload(e) {
+        const file = e.target[0].files[0]
+        axios.post(`https://firebasestorage.googleapis.com/v0/b/poemaps-c9dcb.appspot.com/o?`, file, {
+            headers: {
+                'Content-Type': file.type
+            },
+            params: {
+                uploadType: 'media',
+                name: file.name
             }
-        },
-        {
-            title: `Acid Caverns`,
-            description: null,
-            filename: `acid-caverns.png`,
-            image: null,
-            video: null,
-            level: 73,
-            tier: 6,
-            score: {
-                layout: 4,
-                dense: 4,
-                div: 1,
-                boss: 2
-            }
-        },
-        {
-            title: `Alleyways`,
-            description: null,
-            filename: `alleyways.png`,
-            image: null,
-            video: null,
-            level: 72,
-            tier: 5,
-            score: {
-                layout: 4,
-                dense: 3,
-                div: 3,
-                boss: 5
-            }
-        },
-        {
-            title: `Basilica`,
-            description: `Layout is based upon The Chamber of Innocence. The layout is cross-shaped, but very wide. Arena entrance is to one of the sides of the cross.`,
-            filename: `basilica.png`,
-            image: null,
-            video: null,
-            level: 77,
-            tier: 10,
-            score: {
-                layout: 4,
-                dense: 5,
-                div: 2,
-                boss: 0
-            }
-        }
-    ])
-    const filteredMaps = computed(() => {
-        if(props.filter) return mapsArr.value.filter((map) => map.title && map.title.toLowerCase().includes(props.filter.toLowerCase()))
-        return mapsArr.value
+        })
+        .then((response) => {
+            const data = response.data
+            const url = `https://firebasestorage.googleapis.com/v0/b/${data.bucket}/o/${data.name}?alt=media&token=${data.downloadTokens}`
+            getMap(e.target.dataset.id)
+            activeMap.image = url
+            updateMap(activeMap)
+        })
+        .catch((error) => {
+            console.log(error)
+        })
+    }
+    function updateMap(map) {
+        console.log('updateMap', map)
+    }
+    onMounted(() => {
+        getMaps()
     })
-    const getImage = (filename) => {
-        return new URL(`../assets/maps/${filename}`, import.meta.url).href
-    }
-    const getClass = (value) => {
-        if(value === 5) return 'score-5'
-        if(value === 4) return 'score-4'
-        if(value === 3) return 'score-3'
-        if(value === 2) return 'score-2'
-        if(value === 1) return 'score-1'
-        return 'score-0'
-    }
-    const show = (map) => {
-        const mapModal = new bootstrap.Modal('#mapModal')
-        activeMap.value = map
-        mapModal.show()
-    }
 </script>
