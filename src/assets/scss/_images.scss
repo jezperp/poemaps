@@ -6,7 +6,7 @@
         max-width: clamp(2.5rem, 4vw, 4rem) !important;
     }
     &-md {
-        max-width: clamp(5rem, 10vw, 10rem) !important;
+        max-width: clamp(3.5rem, 6.5vw, 6rem) !important;
     }
     &-lg {
         max-width: clamp(10rem, 15vw, 15rem) !important;
@@ -27,5 +27,8 @@
         visibility: hidden;
         position: absolute;
         left: -9999px;
+    }
+    &-placeholder {
+        background: $gray-700;
     }
 }
