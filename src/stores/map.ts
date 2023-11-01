@@ -6,13 +6,17 @@ export const useMapStore = defineStore('map', () => {
     let activeMap = ref()
     let allMaps: any = ref([])
     const getActiveMap = computed(() => activeMap.value)
-    const getFilteredMaps = computed(filter => {
-        if(filter) return allMaps.value.filter((map: any) => map.title && map.title.toLowerCase().includes(filter.toLowerCase()))
+    const getAllMaps = computed(() => {
+        allMaps.value.sort((a: any, b: any) => {
+            if(a.fields.title.stringValue < b.fields.title.stringValue) return -1
+            if(a.fields.title.stringValue > b.fields.title.stringValue) return 1
+            return 0
+        })
         return allMaps
     })
     async function getMaps() {
         try {
-            let res = await axios.get('https://firestore.googleapis.com/v1/projects/poemaps-c9dcb/databases/(default)/documents/maps')
+            let res = await axios.get('maps')
             const docs: any[] = res.data.documents
             docs.forEach(doc => {
                 allMaps.value.push(doc)
@@ -22,20 +26,38 @@ export const useMapStore = defineStore('map', () => {
             throw error
         }
     }
-    async function getMap(id = null) {
+    async function getMap(id: any) {
         try {
-            let res = await axios.get(`https://firestore.googleapis.com/v1/projects/poemaps-c9dcb/databases/(default)/documents/maps/${id}`)
+            let res = await axios.get(`maps/${id}`)
             activeMap.value = res.data
             return res
         } catch(error) {
             throw error
         }
     }
-    async function updateMap(map = null) {
-        console.log(map)
+    async function updateMap(map: any) {
+        const arr = map.value.name.split('/')
+        const id = arr[arr.length - 1]
+        try {
+            let res = await axios.patch(`maps/${id}`, map.value)
+            let arrMap: any = allMaps.value.find((map: any) => map.name === res.data.name)
+            arrMap.fields = JSON.parse(JSON.stringify(res.data.fields))
+            return res
+        } catch(error) {
+            throw error
+        }
+    }
+    async function createMap(map: any) {
+        try {
+            let res = await axios.post(`maps`, map.value)
+            allMaps.value.push(res.data)
+            return res
+        } catch(error) {
+            throw error
+        }
     }
     function $reset() {
         activeMap.value = null
     }
-    return { activeMap, allMaps, getActiveMap, getFilteredMaps, getMaps, getMap, updateMap, $reset }
+    return { activeMap, allMaps, getActiveMap, getAllMaps, getMaps, getMap, updateMap, createMap, $reset }
 })
