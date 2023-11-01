@@ -38,7 +38,6 @@
         error.value = null
         store.loginUser(email.value, password.value)
         .then(res => {
-            console.log('res', res)
             router.push({ name: 'home' })
         })
         .catch(err => {
