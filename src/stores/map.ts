@@ -16,7 +16,7 @@ export const useMapStore = defineStore('map', () => {
     })
     async function getMaps() {
         try {
-            let res = await axios.get('maps')
+            let res = await axios.get('maps?pageSize=300')
             const docs: any[] = res.data.documents
             docs.forEach(doc => {
                 allMaps.value.push(doc)
