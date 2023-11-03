@@ -22,19 +22,19 @@
                     <div class="badges pt-2">
                         <div    class="badge me-1"
                                 :class="`bg-score-${map.fields.score.arrayValue.values[0].integerValue}`">
-                            layout
+                            layout: {{ map.fields.score.arrayValue.values[0].integerValue }}
                         </div>
                         <div    class="badge me-1"
                                 :class="`bg-score-${map.fields.score.arrayValue.values[1].integerValue}`">
-                            density
+                            density: {{ map.fields.score.arrayValue.values[1].integerValue }}
                         </div>
                         <div    class="badge me-1"
                                 :class="`bg-score-${map.fields.score.arrayValue.values[2].integerValue}`">
-                            cards
+                            cards: {{ map.fields.score.arrayValue.values[2].integerValue }}
                         </div>
                         <div    class="badge"
                                 :class="`bg-score-${map.fields.score.arrayValue.values[3].integerValue}`">
-                            boss
+                            boss: {{ map.fields.score.arrayValue.values[3].integerValue }}
                         </div>
                     </div>
                 </div>
@@ -69,14 +69,22 @@
     import Modal from '@/components/Modal.vue'
     const props = defineProps({
         filter: {
-            type: String,
+            type: Object,
             default: null
         }
     })
     let showModal = ref(false)
     let newModal = ref(false)
     const filteredMaps = computed(() => {
-        if(props.filter) return mapStore.getAllMaps.value.filter(map => map.fields.title.stringValue.toLowerCase().includes(props.filter.toLowerCase()))
+        if(props.filter) {
+            return mapStore.getAllMaps.value.filter(
+                map => map.fields.title.stringValue.toLowerCase().includes(props.filter.text.toLowerCase())
+                && map.fields.score.arrayValue.values[0].integerValue >= props.filter.score[0]
+                && map.fields.score.arrayValue.values[1].integerValue >= props.filter.score[1]
+                && map.fields.score.arrayValue.values[2].integerValue >= props.filter.score[2]
+                && map.fields.score.arrayValue.values[3].integerValue >= props.filter.score[3]
+            )
+        }
         return mapStore.getAllMaps.value
     })
     function getMaps() {
