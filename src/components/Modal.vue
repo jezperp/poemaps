@@ -15,21 +15,13 @@
                                 v-if="copyMap">
                             <div class="col col-auto pe-0 me-auto">
                                 <div class="img">
-                                    <label for="imageInput">
-                                        <img    :src="copyMap.fields.image.stringValue"
-                                                class="img-fluid img-md"
-                                                :alt="`${copyMap.fields.title.stringValue} map`"
-                                                v-if="copyMap.fields.image.stringValue.length" />
-                                        <div    class="ratio ratio-1x1 overflow-hidden w-3rem"
-                                                v-else>
-                                            <div class="img-placeholder rounded-circle"></div>
-                                        </div>
-                                    </label>
-                                    <input  type="file"
-                                            name="filename"
-                                            id="imageInput"
-                                            data-name="image"
-                                            @change="upload">
+                                    <img    :src="copyMap.fields.image.stringValue"
+                                            class="img-fluid img-md"
+                                            v-if="copyMap.fields.image.stringValue.length" />
+                                    <div    class="ratio ratio-1x1 overflow-hidden w-3rem"
+                                            v-else>
+                                        <div class="img-placeholder rounded-circle"></div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col col-auto pe-0">
@@ -49,24 +41,23 @@
                                         class="form-control smaller m-0">
                             </div>
                         </div>
-                        <div class="img">
-                            <label  for="thumbInput"
-                                    class="w-100">
-                                <div class="ratio ratio-16x9 overflow-hidden w-100">
-                                    <img    :src="copyMap.fields.thumbnail.stringValue"
-                                            class="img-fluid img-center"
-                                            :alt="`${copyMap.fields.title.stringValue} map`"
-                                            v-if="copyMap.fields.thumbnail.stringValue.length" />
-                                    <div    class="img-placeholder"
-                                            v-else></div>
-                                </div>
-                            </label>
-                            <input  type="file"
-                                    name="filename"
-                                    id="thumbInput"
-                                    data-name="thumbnail"
-                                    @change="upload">
+                        <input  type="text"
+                                class="form-control"
+                                v-model="copyMap.fields.image.stringValue">
+                        <div    class="img"
+                                v-if="copyMap.fields.id">
+                            <div class="ratio ratio-16x9 overflow-hidden w-100">
+                                <img    :src="`https://i.ytimg.com/vi/${copyMap.fields.id.stringValue}/maxresdefault.jpg`"
+                                        class="img-fluid img-center"
+                                        :alt="`${copyMap.fields.title.stringValue} map`"
+                                        v-if="copyMap.fields.id.stringValue.length" />
+                                <div    class="img-placeholder"
+                                        v-else />
+                            </div>
                         </div>
+                        <input  type="text"
+                                class="form-control small"
+                                v-model="copyMap.fields.id.stringValue">
                         <input  v-model="copyMap.fields.title.stringValue"
                                 type="text"
                                 class="form-control small"
@@ -74,13 +65,8 @@
                         <textarea   v-model="copyMap.fields.description.stringValue"
                                     class="form-control smaller"
                                     placeholder="Description..." />
-                        <input  v-model="copyMap.fields.video.stringValue"
-                                type="text"
-                                class="form-control smaller"
-                                placeholder="Youtube embed code...">
-                        <div    class="ratio ratio-16x9"
-                                v-if="copyMap.fields.video.stringValue">
-                            <iframe :src="`//www.youtube-nocookie.com/embed/${copyMap.fields.video.stringValue}`"
+                        <div class="ratio ratio-16x9">
+                            <iframe :src="`//www.youtube-nocookie.com/embed/${copyMap.fields.id.stringValue}`"
                                     referrerpolicy="no-referrer-when-downgrade"
                                     allowfullscreen />
                         </div>
@@ -117,15 +103,8 @@
                     </form>
                     <div    class="ratio ratio-16x9"
                             v-else>
-                        <iframe :src="`//www.youtube-nocookie.com/embed/${map.fields.video.stringValue}`"
-                                allowfullscreen
-                                v-if="map.fields.video.stringValue.length" />
-                        <div    class="ratio ratio-16x9 overflow-hidden w-100"
-                                v-else-if="map.fields.thumbnail.stringValue.length">
-                            <img    :src="map.fields.thumbnail.stringValue"
-                                    class="img-fluid img-center"
-                                    :alt="`${map.fields.title.stringValue} map`" />
-                        </div>
+                        <iframe :src="`//www.youtube-nocookie.com/embed/${map.fields.id.stringValue}`"
+                                allowfullscreen />
                     </div>
                 </div>
             </div>
@@ -158,7 +137,7 @@
     let mapModal = ref()
     let copyMap = ref()
     function updateMap() {
-        mapStore.updateMap(copyMap)
+        mapStore.updateMap(copyMap.value)
         .then(res => {
             emit('closeModal')
         })
@@ -212,9 +191,9 @@
     watch(() => props.newMap, (val) => {
         if(val) {
             copyMap.value = {
-                createTime: null,
                 fields: {
                     description: {stringValue: ""},
+                    id: {stringValue: ""},
                     image: {stringValue: ""},
                     level: {integerValue: 0},
                     score: {
@@ -227,13 +206,10 @@
                             ]
                         }
                     },
-                    thumbnail: {stringValue: ""},
                     tier: {integerValue: 0},
-                    title: {stringValue: ""},
-                    video: {stringValue: ""},
+                    title: {stringValue: ""}
                 },
-                name: null,
-                updateTime: null
+                name: null
             }
         }
     })

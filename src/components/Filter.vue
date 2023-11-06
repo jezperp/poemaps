@@ -11,7 +11,7 @@
                     filter:
                 </p>
             </div>
-            <div class="col col-auto pe-0">
+            <div class="col col-auto ps-2 pe-0">
                 <a  href="#"
                     class="badge text-decoration-none"
                     :class="`bg-score-${filterVal.score[0]}`"
@@ -19,7 +19,7 @@
                     layout: {{ filterVal.score[0] }}
                 </a>
             </div>
-            <div class="col col-auto pe-0">
+            <div class="col col-auto ps-1 pe-0">
                 <a  href="#"
                     class="badge text-decoration-none"
                     :class="`bg-score-${filterVal.score[1]}`"
@@ -27,7 +27,7 @@
                     density: {{ filterVal.score[1] }}
                 </a>
             </div>
-            <div class="col col-auto pe-0">
+            <div class="col col-auto ps-1 pe-0">
                 <a  href="#"
                     class="badge text-decoration-none"
                     :class="`bg-score-${filterVal.score[2]}`"
@@ -35,7 +35,7 @@
                     cards: {{ filterVal.score[2] }}
                 </a>
             </div>
-            <div class="col col-auto pe-0">
+            <div class="col col-auto ps-1 pe-0">
                 <a  href="#"
                     class="badge text-decoration-none"
                     :class="`bg-score-${filterVal.score[3]}`"
@@ -43,7 +43,7 @@
                     boss: {{ filterVal.score[3] }}
                 </a>
             </div>
-            <div class="col col-auto">
+            <div class="col col-auto ps-2">
                 <a  href="#"
                     class="small text-white text-decoration-none"
                     @click.prevent="reset()">

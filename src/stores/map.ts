@@ -36,10 +36,10 @@ export const useMapStore = defineStore('map', () => {
         }
     }
     async function updateMap(map: any) {
-        const arr = map.value.name.split('/')
+        const arr = map.name.split('/')
         const id = arr[arr.length - 1]
         try {
-            let res = await axios.patch(`maps/${id}`, map.value)
+            let res = await axios.patch(`maps/${id}`, map)
             let arrMap: any = allMaps.value.find((map: any) => map.name === res.data.name)
             arrMap.fields = JSON.parse(JSON.stringify(res.data.fields))
             return res

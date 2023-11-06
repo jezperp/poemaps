@@ -10,8 +10,7 @@
                 <div class="col col-auto text-center">
                     <div class="img">
                         <img    :src="map.fields.image.stringValue"
-                                class="img-fluid img-sm"
-                                :alt="`${map.fields.title.stringValue} map`" />
+                                class="img-fluid img-sm" />
                     </div>
                     <p class="small mb-0 pt-2">level: {{ map.fields.level.integerValue }}</p>
                     <p class="small mb-0">tier: {{ map.fields.tier.integerValue }}</p>
@@ -38,10 +37,9 @@
                         </div>
                     </div>
                 </div>
-                <div    class="col col-3 d-none d-lg-flex"
-                        v-if="map.fields.thumbnail.stringValue">
+                <div class="col col-3 d-none d-lg-flex">
                     <div class="ratio ratio-16x9 overflow-hidden">
-                        <img    :src="map.fields.thumbnail.stringValue"
+                        <img    :src="`https://i.ytimg.com/vi/${map.fields.id.stringValue}/maxresdefault.jpg`"
                                 class="img-fluid img-center"
                                 :alt="`${map.fields.title.stringValue} map`">
                     </div>
