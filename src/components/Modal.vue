@@ -7,7 +7,7 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div    class="modal-body bg-black"
-                        v-if="map || newMap">
+                        v-if="copyMap || newMap">
                     <form   enctype="multipart/form-data"
                             @submit.prevent="newMap ? createMap() : updateMap()"
                             v-if="userStore.user">
@@ -156,30 +156,10 @@
             console.log(err)
         })
     }
-    function upload(e) {
-        const file = e.target.files[0]
-        const name = e.target.dataset.name
-        axios.post(`https://firebasestorage.googleapis.com/v0/b/poemaps-c9dcb.appspot.com/o?`, file, {
-            headers: {
-                'Content-Type': file.type
-            },
-            params: {
-                uploadType: 'media',
-                name: file.name
-            }
-        })
-        .then(res => {
-            const data = res.data
-            const url = `https://firebasestorage.googleapis.com/v0/b/${data.bucket}/o/${data.name}?alt=media&token=${data.downloadTokens}`
-            copyMap.value.fields[name].stringValue = url
-        })
-        .catch(err => {
-            console.log(err)
-        })
-    }
     onMounted(() => {
         mapModal = new bootstrap.Modal('#mapModal')
         document.getElementById('mapModal').addEventListener('hidden.bs.modal', () => {
+            mapStore.$reset()
             emit('closeModal')
         })
     })

@@ -22,7 +22,7 @@
     <Modal  :map="mapStore.getActiveMap"
             :newMap="newModal"
             :show="showModal"
-            @closeModal="showModal = false; newModal = false" />
+            @closeModal="resetModal" />
 </template>
 <script setup>
     import { ref, computed, onMounted } from 'vue'
@@ -77,6 +77,10 @@
     function newMap() {
         newModal.value = true
         showModal.value = true
+    }
+    function resetModal() {
+        showModal.value = false
+        newModal.value = false
     }
     onMounted(() => {
         getMaps()
