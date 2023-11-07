@@ -41,9 +41,10 @@
                                         class="form-control smaller m-0">
                             </div>
                         </div>
-                        <input  type="text"
-                                class="form-control"
-                                v-model="copyMap.fields.image.stringValue">
+                        <input  v-model="copyMap.fields.image.stringValue"
+                                type="text"
+                                class="form-control small"
+                                placeholder="Map image url...">
                         <div    class="img"
                                 v-if="copyMap.fields.id">
                             <div class="ratio ratio-16x9 overflow-hidden w-100">
@@ -55,15 +56,16 @@
                                         v-else />
                             </div>
                         </div>
-                        <input  type="text"
-                                class="form-control small"
-                                v-model="copyMap.fields.id.stringValue">
+                        <input  v-model="copyMap.fields.id.stringValue"
+                                type="text"
+                                class="form-control small mt-3"
+                                placeholder="Youtube video id..." />
                         <input  v-model="copyMap.fields.title.stringValue"
                                 type="text"
                                 class="form-control small"
-                                placeholder="Title...">
+                                placeholder="Title..." />
                         <textarea   v-model="copyMap.fields.description.stringValue"
-                                    class="form-control smaller"
+                                    class="form-control small"
                                     placeholder="Description..." />
                         <div class="ratio ratio-16x9">
                             <iframe :src="`//www.youtube-nocookie.com/embed/${copyMap.fields.id.stringValue}`"
