@@ -7,6 +7,8 @@
             </div>
         </div>
         <div class="col col-12 text-center pt-3">
+            <h4>{{ props.map.fields.title.stringValue }}</h4>
+            <p class="mb-1 truncate">{{ props.map.fields.description.stringValue }}</p>
             <div class="img">
                 <img    :src="props.map.fields.image.stringValue"
                         class="img-fluid img-sm" />
@@ -15,8 +17,6 @@
             <p class="small mb-0">tier: {{ props.map.fields.tier.integerValue }}</p>
         </div>
         <div class="col col-12 text-center pt-2">
-            <h4>{{ props.map.fields.title.stringValue }}</h4>
-            <p class="mb-0 truncate">{{ props.map.fields.description.stringValue }}</p>
             <div class="badges pt-1">
                 <div    class="badge me-1"
                         :class="`bg-score-${props.map.fields.score.arrayValue.values[0].integerValue}`">

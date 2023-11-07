@@ -38,7 +38,7 @@
                     boss: {{ filterVal.score[3] }}
                 </a>
             </div>
-            <div class="col col-auto ps-2 ms-auto">
+            <div class="col col-auto ps-2 ms-auto d-none d-md-block">
                 <a  href="#"
                     class="small text-decoration-none"
                     :class="viewVal === 'cols' ? 'text-primary' : 'text-white'"
@@ -57,12 +57,13 @@
     </div>
 </template>
 <script setup>
-    import { ref, watch } from 'vue'
+    import { ref, watch, onMounted } from 'vue'
     const filterVal = ref({
         text: '',
         score: [0, 0, 0, 0]
     })
     const viewVal = ref('cols')
+    let time = null
     const emit = defineEmits(['filter', 'view'])
     function filter() {
         emit('filter', {
@@ -80,6 +81,17 @@
         viewVal.value = view
         emit('view', viewVal.value)
     }
+    function checkWidth() {
+        const width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
+        if(width < 768) changeView('list')
+    }
+    onMounted(() => {
+        checkWidth()
+        window.addEventListener('resize', () => {
+            clearTimeout(time)
+            time = setTimeout(checkWidth, 500)
+        })
+    })
     watch(() => filterVal.value.score[0], () => {
         filter()
     })

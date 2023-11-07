@@ -11,7 +11,7 @@
                     <form   enctype="multipart/form-data"
                             @submit.prevent="newMap ? createMap() : updateMap()"
                             v-if="userStore.user">
-                        <div    class="row align-items-center mb-3"
+                        <div    class="row align-items-center"
                                 v-if="copyMap">
                             <div class="col col-auto pe-0 me-auto">
                                 <div class="img">
@@ -25,7 +25,7 @@
                                 </div>
                             </div>
                             <div class="col col-auto pe-0">
-                                <p class="m-0 smaller">level:</p>
+                                <p class="m-0 small">level:</p>
                             </div>
                             <div class="col col-2">
                                 <input  v-model="copyMap.fields.level.integerValue"
@@ -33,7 +33,7 @@
                                         class="form-control smaller m-0">
                             </div>
                             <div class="col col-auto pe-0">
-                                <p class="m-0 smaller">tier:</p>
+                                <p class="m-0 small">tier:</p>
                             </div>
                             <div class="col col-2">
                                 <input  v-model="copyMap.fields.tier.integerValue"

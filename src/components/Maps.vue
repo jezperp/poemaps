@@ -3,8 +3,8 @@
             class="pt-2"
             v-if="mapStore.getAllMaps">
         <div class="row">
-            <div    class="col col-12 map p-3 mb-1 rounded"
-                    :class="props.view === 'cols' ? 'col-sm-6 col-lg-4 col-xl-3' : null"
+            <div    class="col col-12 map py-3 mb-1 rounded"
+                    :class="props.view === 'cols' ? 'col-md-6 col-lg-4 col-xl-3' : null"
                     @click="getMap(map)"
                     v-for="(map, mkey) in filteredMaps"
                     :key="mkey">
