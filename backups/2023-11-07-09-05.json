@@ -1,0 +1,6237 @@
+[
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/06ZXUimbMFcyrDn16VQC",
+    "fields": {
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/4/47/Academy_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "title": {
+        "stringValue": "Academy"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "tier": {
+        "integerValue": "6"
+      },
+      "level": {
+        "integerValue": "73"
+      },
+      "id": {
+        "stringValue": "_6LeNSlPzX0"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      }
+    },
+    "createTime": "2023-10-31T22:47:21.862936Z",
+    "updateTime": "2023-11-06T21:16:31.550553Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/0YvosYB8RL3yzNeKhNlq",
+    "fields": {
+      "id": {
+        "stringValue": "rU8zx41dxv8"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "title": {
+        "stringValue": "Acid Caverns"
+      },
+      "tier": {
+        "integerValue": "6"
+      },
+      "level": {
+        "integerValue": "73"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/b/ba/Acid_Caverns_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "description": {
+        "stringValue": ""
+      }
+    },
+    "createTime": "2023-11-01T08:49:45.644849Z",
+    "updateTime": "2023-11-06T21:20:46.648224Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/1lVRFF5nXJXzeQoQFSpy",
+    "fields": {
+      "tier": {
+        "integerValue": "5"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "id": {
+        "stringValue": "bWGgD9FpPu4"
+      },
+      "level": {
+        "integerValue": "72"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/7/7e/Alleyways_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "title": {
+        "stringValue": "Alleyways"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "5"
+            }
+          ]
+        }
+      }
+    },
+    "createTime": "2023-11-01T08:03:32.633383Z",
+    "updateTime": "2023-11-06T21:21:57.872156Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/2jLo5QW2N4kMYnjvYNFj",
+    "fields": {
+      "id": {
+        "stringValue": "tvOuHAXFeHc"
+      },
+      "level": {
+        "integerValue": "83"
+      },
+      "title": {
+        "stringValue": "Ancient City"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/d/de/Ancient_City_Map_%28The_Forbidden_Sanctum%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "16"
+      },
+      "description": {
+        "stringValue": ""
+      }
+    },
+    "createTime": "2023-11-01T08:53:39.324405Z",
+    "updateTime": "2023-11-06T21:28:22.369560Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/3RqZGygGDEFH7y4dcu67",
+    "fields": {
+      "description": {
+        "stringValue": ""
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/7/76/Arachnid_Nest_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "8rTIGlc_Ljo"
+      },
+      "level": {
+        "integerValue": "76"
+      },
+      "title": {
+        "stringValue": "Arachnid Nest"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "1"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "9"
+      }
+    },
+    "createTime": "2023-11-01T09:01:05.702449Z",
+    "updateTime": "2023-11-06T21:29:12.815066Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/3aH230MRcaImBTKycl2X",
+    "fields": {
+      "level": {
+        "integerValue": "73"
+      },
+      "tier": {
+        "integerValue": "6"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/3/3c/Arachnid_Tomb_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "title": {
+        "stringValue": "Arachnid Tomb"
+      },
+      "id": {
+        "stringValue": "Hb8P0qnNCHI"
+      },
+      "description": {
+        "stringValue": ""
+      }
+    },
+    "createTime": "2023-11-01T08:54:47.783307Z",
+    "updateTime": "2023-11-06T21:30:01.427285Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/49OEqbzpWwIdYHsBZhPv",
+    "fields": {
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "5"
+            }
+          ]
+        }
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/2/2c/Arcade_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "rG3N9z5-fw4"
+      },
+      "level": {
+        "integerValue": "75"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "tier": {
+        "integerValue": "8"
+      },
+      "title": {
+        "stringValue": "Arcade"
+      }
+    },
+    "createTime": "2023-10-31T23:20:12.204248Z",
+    "updateTime": "2023-11-06T21:31:03.487289Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/4G7m2PCcUV6SiZfg7pPy",
+    "fields": {
+      "level": {
+        "integerValue": "70"
+      },
+      "id": {
+        "stringValue": "1DaQ2rRy4K4"
+      },
+      "tier": {
+        "integerValue": "3"
+      },
+      "title": {
+        "stringValue": "Strand"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "5"
+            }
+          ]
+        }
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/c/c4/Strand_Map_%28Ancestor%29_inventory_icon.png"
+      }
+    },
+    "createTime": "2023-11-06T23:27:38.925234Z",
+    "updateTime": "2023-11-06T23:27:38.925234Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/4uTlBDwjBcazyRJnmcyQ",
+    "fields": {
+      "level": {
+        "integerValue": "68"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/6/69/Arena_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "title": {
+        "stringValue": "Arena"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "id": {
+        "stringValue": "PRkSeti0wpw"
+      },
+      "tier": {
+        "integerValue": "1"
+      }
+    },
+    "createTime": "2023-11-01T08:51:29.092195Z",
+    "updateTime": "2023-11-06T21:32:41.754183Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/5DqLyIL1FelRYtf36Y8M",
+    "fields": {
+      "description": {
+        "stringValue": ""
+      },
+      "tier": {
+        "integerValue": "13"
+      },
+      "title": {
+        "stringValue": "Arid Lake"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/f/fd/Arid_Lake_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "DLXLYCwNrhQ"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "level": {
+        "integerValue": "80"
+      }
+    },
+    "createTime": "2023-11-01T08:15:43.678018Z",
+    "updateTime": "2023-11-06T21:33:31.055027Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/5RMj1ohnJxCbpdphoc0t",
+    "fields": {
+      "tier": {
+        "integerValue": "7"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "id": {
+        "stringValue": "lY3tuSIAolM"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/7/70/Relic_Chambers_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "level": {
+        "integerValue": "74"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "title": {
+        "stringValue": "Relic Chambers"
+      }
+    },
+    "createTime": "2023-11-06T23:20:28.363533Z",
+    "updateTime": "2023-11-06T23:20:28.363533Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/6U9dI1wUqmxD5bHsXTWM",
+    "fields": {
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/d/dc/Armoury_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "level": {
+        "integerValue": "75"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "tier": {
+        "integerValue": "8"
+      },
+      "title": {
+        "stringValue": "Armoury"
+      },
+      "id": {
+        "stringValue": "rexYSp74iZ8"
+      }
+    },
+    "createTime": "2023-11-01T07:59:04.426044Z",
+    "updateTime": "2023-11-06T21:36:02.798781Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/6UaPvvzTxPjhU8AmgolY",
+    "fields": {
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/7/74/Arsenal_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "title": {
+        "stringValue": "Arsenal"
+      },
+      "tier": {
+        "integerValue": "16"
+      },
+      "id": {
+        "stringValue": "0ye4Q8judA0"
+      },
+      "level": {
+        "integerValue": "83"
+      }
+    },
+    "createTime": "2023-10-24T15:28:02.696244Z",
+    "updateTime": "2023-11-06T21:37:40.802617Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/7Bn0221frcQljJ1bTdPD",
+    "fields": {
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "title": {
+        "stringValue": "Ashen Wood"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/0/0b/Ashen_Wood_Map_%28The_Forbidden_Sanctum%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "MuHYZKp1g-4"
+      },
+      "tier": {
+        "integerValue": "15"
+      },
+      "level": {
+        "integerValue": "82"
+      }
+    },
+    "createTime": "2023-11-01T23:42:50.005462Z",
+    "updateTime": "2023-11-06T21:38:33.693056Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/7DkQYmp7eQA1Tp9XaMdC",
+    "fields": {
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "5"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/d/d3/Atoll_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "level": {
+        "integerValue": "72"
+      },
+      "id": {
+        "stringValue": "TXtttpX39JU"
+      },
+      "title": {
+        "stringValue": "Atoll"
+      },
+      "description": {
+        "stringValue": ""
+      }
+    },
+    "createTime": "2023-11-01T08:30:01.911765Z",
+    "updateTime": "2023-11-06T21:39:44.843448Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/8MKmH24P1NZbb9MXMCRY",
+    "fields": {
+      "tier": {
+        "integerValue": "1"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "5"
+            }
+          ]
+        }
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/d/de/Barrows_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "qHkPuqdksJI"
+      },
+      "level": {
+        "integerValue": "68"
+      },
+      "title": {
+        "stringValue": "Barrows"
+      }
+    },
+    "createTime": "2023-10-31T22:36:25.012892Z",
+    "updateTime": "2023-11-06T21:40:16.297811Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/8mYDe7TAbJmUlYY2nYOT",
+    "fields": {
+      "level": {
+        "integerValue": "75"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/b/b6/Waterways_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "title": {
+        "stringValue": "Waterways"
+      },
+      "tier": {
+        "integerValue": "8"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "id": {
+        "stringValue": "OMythsSijsk"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      }
+    },
+    "createTime": "2023-11-06T23:38:14.338367Z",
+    "updateTime": "2023-11-06T23:38:14.338367Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/8qLUEjnxqFGkQ1JDUq7a",
+    "fields": {
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "0"
+            }
+          ]
+        }
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "title": {
+        "stringValue": "Basilica"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/d/dc/Basilica_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "level": {
+        "integerValue": "77"
+      },
+      "tier": {
+        "integerValue": "10"
+      },
+      "id": {
+        "stringValue": "EhqYWAVQKdc"
+      }
+    },
+    "createTime": "2023-10-31T22:42:26.329954Z",
+    "updateTime": "2023-11-06T21:41:14.756130Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/8sVagnlQDjIAzaxiXp93",
+    "fields": {
+      "level": {
+        "integerValue": "69"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/e/e3/Primordial_Blocks_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "title": {
+        "stringValue": "Primordial Blocks"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "1"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "2"
+      },
+      "id": {
+        "stringValue": "siQHXIjfGgU"
+      },
+      "description": {
+        "stringValue": ""
+      }
+    },
+    "createTime": "2023-11-06T23:16:32.461968Z",
+    "updateTime": "2023-11-06T23:16:32.461968Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/AmFWTZVCNm4b8qhidfBr",
+    "fields": {
+      "tier": {
+        "integerValue": "5"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "title": {
+        "stringValue": "Bazaar"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/2/27/Bazaar_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "ib2gd0LMnMA"
+      },
+      "level": {
+        "integerValue": "72"
+      },
+      "description": {
+        "stringValue": ""
+      }
+    },
+    "createTime": "2023-11-01T00:04:45.081910Z",
+    "updateTime": "2023-11-06T21:42:05.510276Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/B8oTxp7Ql1Thl3H2iONN",
+    "fields": {
+      "description": {
+        "stringValue": ""
+      },
+      "level": {
+        "integerValue": "69"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/8/80/Beach_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "title": {
+        "stringValue": "Beach"
+      },
+      "tier": {
+        "integerValue": "2"
+      },
+      "id": {
+        "stringValue": "AYkoPgpCUwQ"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "5"
+            }
+          ]
+        }
+      }
+    },
+    "createTime": "2023-11-01T23:50:29.095095Z",
+    "updateTime": "2023-11-06T21:42:39.396624Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/C7zJzuYhntKrcVduNMXn",
+    "fields": {
+      "title": {
+        "stringValue": "Stagnation"
+      },
+      "level": {
+        "integerValue": "69"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "id": {
+        "stringValue": "nsrqZJd-7iQ"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/a/af/Stagnation_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "2"
+      }
+    },
+    "createTime": "2023-11-06T23:27:08.469335Z",
+    "updateTime": "2023-11-06T23:27:08.469335Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/CB2OFJJExwQQ3RQ6yDVN",
+    "fields": {
+      "id": {
+        "stringValue": "OL9YpY4tGjY"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "0"
+            }
+          ]
+        }
+      },
+      "level": {
+        "integerValue": "69"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "title": {
+        "stringValue": "Belfry"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/f/f9/Belfry_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "2"
+      }
+    },
+    "createTime": "2023-11-01T08:38:25.999566Z",
+    "updateTime": "2023-11-06T21:43:50.092898Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/DDGkQBBLsBUrgh2GBxSH",
+    "fields": {
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/b/b6/Bog_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "id": {
+        "stringValue": "o5WmZoqRgCU"
+      },
+      "tier": {
+        "integerValue": "3"
+      },
+      "title": {
+        "stringValue": "Bog"
+      },
+      "level": {
+        "integerValue": "70"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      }
+    },
+    "createTime": "2023-11-02T00:06:32.038456Z",
+    "updateTime": "2023-11-06T21:44:31.420444Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/DW2mRp3cLndvGTAPhPMV",
+    "fields": {
+      "level": {
+        "integerValue": "68"
+      },
+      "id": {
+        "stringValue": "H8LNGJ29e_g"
+      },
+      "title": {
+        "stringValue": "Bone Crypt"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "1"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/0/07/Bone_Crypt_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "description": {
+        "stringValue": ""
+      }
+    },
+    "createTime": "2023-11-01T08:31:29.287939Z",
+    "updateTime": "2023-11-06T21:45:09.717411Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/FTBut3zY4tA40W8BjXAA",
+    "fields": {
+      "level": {
+        "integerValue": "69"
+      },
+      "id": {
+        "stringValue": "Xwaz5VeZ2B0"
+      },
+      "title": {
+        "stringValue": "Bramble Valley"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/0/05/Bramble_Valley_Map_%28Kalandra%29_inventory_icon.png"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "2"
+      },
+      "description": {
+        "stringValue": ""
+      }
+    },
+    "createTime": "2023-11-01T08:47:05.318460Z",
+    "updateTime": "2023-11-06T21:46:14.916115Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/GBOjZ45hkFe7TKsVkcPE",
+    "fields": {
+      "level": {
+        "integerValue": "73"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "id": {
+        "stringValue": "06m6CQEhe24"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "title": {
+        "stringValue": "Waste Pool"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/5/5f/Waste_Pool_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "6"
+      }
+    },
+    "createTime": "2023-11-06T23:37:17.694933Z",
+    "updateTime": "2023-11-06T23:37:17.694933Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/GwRRgJ4zvPe8D88NMbTu",
+    "fields": {
+      "level": {
+        "integerValue": "74"
+      },
+      "title": {
+        "stringValue": "Burial Chambers"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/0/02/Burial_Chambers_Map_%28The_Forbidden_Sanctum%29_inventory_icon.png"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "id": {
+        "stringValue": "1knsc7h0wNY"
+      },
+      "tier": {
+        "integerValue": "7"
+      }
+    },
+    "createTime": "2023-11-01T08:28:37.789576Z",
+    "updateTime": "2023-11-06T21:48:04.910325Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/HDTlzuOAev0DIyOwXkIM",
+    "fields": {
+      "level": {
+        "integerValue": "71"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/9/90/Cage_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "title": {
+        "stringValue": "Cage"
+      },
+      "tier": {
+        "integerValue": "4"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "5"
+            }
+          ]
+        }
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "id": {
+        "stringValue": "viy7whmQR6E"
+      }
+    },
+    "createTime": "2023-11-01T23:12:41.960740Z",
+    "updateTime": "2023-11-06T21:48:39.528170Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/HdFoYXWe2zGBeuc4LEpR",
+    "fields": {
+      "description": {
+        "stringValue": ""
+      },
+      "title": {
+        "stringValue": "Caldera"
+      },
+      "level": {
+        "integerValue": "80"
+      },
+      "tier": {
+        "integerValue": "13"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/8/89/Caldera_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "thzj8PxYjK8"
+      }
+    },
+    "createTime": "2023-11-01T08:57:43.199942Z",
+    "updateTime": "2023-11-06T21:50:24.977528Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/I7slVARrJ1tD0LU8iKH1",
+    "fields": {
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/3/38/Canyon_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "title": {
+        "stringValue": "Canyon"
+      },
+      "tier": {
+        "integerValue": "7"
+      },
+      "level": {
+        "integerValue": "74"
+      },
+      "id": {
+        "stringValue": "05rkNfl1-Vw"
+      }
+    },
+    "createTime": "2023-11-01T08:17:31.843026Z",
+    "updateTime": "2023-11-06T21:51:10.909908Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/IXlv5QbBAGMzwlE6EkOT",
+    "fields": {
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "9"
+      },
+      "level": {
+        "integerValue": "76"
+      },
+      "id": {
+        "stringValue": "craYmXSb2B0"
+      },
+      "title": {
+        "stringValue": "Carcass"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/4/46/Carcass_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "description": {
+        "stringValue": ""
+      }
+    },
+    "createTime": "2023-11-01T08:26:49.716138Z",
+    "updateTime": "2023-11-06T21:51:39.294198Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/IbRDiIvGfLnoeStg0Oy4",
+    "fields": {
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "title": {
+        "stringValue": "Terrace"
+      },
+      "level": {
+        "integerValue": "75"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "id": {
+        "stringValue": "RHFuQ0MpZPY"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/7/72/Terrace_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "8"
+      }
+    },
+    "createTime": "2023-11-06T23:30:30.328392Z",
+    "updateTime": "2023-11-06T23:30:30.328392Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/IvmFgO7MHzjg2Xh5cDSh",
+    "fields": {
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "id": {
+        "stringValue": "t5DhPw4YWls"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "tier": {
+        "integerValue": "8"
+      },
+      "title": {
+        "stringValue": "Castle Ruins"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/4/47/Castle_Ruins_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "level": {
+        "integerValue": "75"
+      }
+    },
+    "createTime": "2023-10-27T07:40:06.650641Z",
+    "updateTime": "2023-11-06T21:52:19.027631Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/JAGo2w9eNC7LJ2Pc0yTV",
+    "fields": {
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/4/43/Tower_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "level": {
+        "integerValue": "77"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "id": {
+        "stringValue": "iX6XaSlzlow"
+      },
+      "title": {
+        "stringValue": "Tower"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "10"
+      }
+    },
+    "createTime": "2023-11-06T23:31:36.261262Z",
+    "updateTime": "2023-11-06T23:31:36.261262Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/KQMEUkZVajJZe4741qSf",
+    "fields": {
+      "level": {
+        "integerValue": "72"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/2/24/Cells_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "title": {
+        "stringValue": "Cells"
+      },
+      "id": {
+        "stringValue": "px4URWCOWpY"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "tier": {
+        "integerValue": "5"
+      }
+    },
+    "createTime": "2023-10-31T23:39:42.718736Z",
+    "updateTime": "2023-11-06T21:52:54.761760Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/KTG6R8IWEeNMvkH8KRWC",
+    "fields": {
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/4/4e/Cemetery_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "title": {
+        "stringValue": "Cemetery"
+      },
+      "level": {
+        "integerValue": "71"
+      },
+      "id": {
+        "stringValue": "95IiR3WWkc4"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "4"
+      }
+    },
+    "createTime": "2023-10-31T22:06:08.520256Z",
+    "updateTime": "2023-11-06T21:53:34.652041Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/Kna1UpgxdWWMaXdOIpX3",
+    "fields": {
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "level": {
+        "integerValue": "74"
+      },
+      "tier": {
+        "integerValue": "7"
+      },
+      "title": {
+        "stringValue": "Precinct"
+      },
+      "id": {
+        "stringValue": "CoNA2azkBvk"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/8/84/Precinct_Map_%28Ancestor%29_inventory_icon.png"
+      }
+    },
+    "createTime": "2023-11-06T23:16:04.806457Z",
+    "updateTime": "2023-11-06T23:16:04.806457Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/LEilifpCxU2zmRBW7UFL",
+    "fields": {
+      "description": {
+        "stringValue": ""
+      },
+      "level": {
+        "integerValue": "83"
+      },
+      "id": {
+        "stringValue": "vjqcpp8j4v8"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/5/5c/Channel_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "16"
+      },
+      "title": {
+        "stringValue": "Channel"
+      }
+    },
+    "createTime": "2023-11-01T09:06:45.719477Z",
+    "updateTime": "2023-11-06T21:54:10.811105Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/Llg5Phx41mx0fDoUmd9U",
+    "fields": {
+      "id": {
+        "stringValue": "HkXXJK-BJEQ"
+      },
+      "title": {
+        "stringValue": "Chateau"
+      },
+      "level": {
+        "integerValue": "75"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/9/99/Chateau_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "5"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "8"
+      },
+      "description": {
+        "stringValue": ""
+      }
+    },
+    "createTime": "2023-11-01T08:41:02.539799Z",
+    "updateTime": "2023-11-06T21:55:03.046545Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/MFKY3LqvrmkoZ9FuMQl2",
+    "fields": {
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/9/93/City_Square_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "title": {
+        "stringValue": "City Square"
+      },
+      "level": {
+        "integerValue": "78"
+      },
+      "id": {
+        "stringValue": "nlfN-rMlm3I"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "11"
+      }
+    },
+    "createTime": "2023-11-01T08:23:49.772114Z",
+    "updateTime": "2023-11-06T21:55:31.131841Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/MM7UoH5wChDn0KF5CPJF",
+    "fields": {
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "id": {
+        "stringValue": "sR3SozyQEkE"
+      },
+      "level": {
+        "integerValue": "73"
+      },
+      "title": {
+        "stringValue": "Promenade"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/5/5c/Promenade_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "6"
+      }
+    },
+    "createTime": "2023-11-06T23:17:30.229215Z",
+    "updateTime": "2023-11-06T23:17:30.229215Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/MO9RvycHEAmBSK0xVC8h",
+    "fields": {
+      "tier": {
+        "integerValue": "5"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/a/a0/Volcano_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "level": {
+        "integerValue": "72"
+      },
+      "id": {
+        "stringValue": "Eq6p-muLUVc"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "title": {
+        "stringValue": "Volcano"
+      }
+    },
+    "createTime": "2023-11-06T23:35:28.214491Z",
+    "updateTime": "2023-11-06T23:35:28.214491Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/MTJS9I8Vl5eYisCrfHoY",
+    "fields": {
+      "title": {
+        "stringValue": "Cold River"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "level": {
+        "integerValue": "70"
+      },
+      "id": {
+        "stringValue": "eT7eoW-m_Fc"
+      },
+      "tier": {
+        "integerValue": "3"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/7/7b/Cold_River_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "description": {
+        "stringValue": ""
+      }
+    },
+    "createTime": "2023-11-01T09:04:17.455059Z",
+    "updateTime": "2023-11-06T21:56:12.982795Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/MnKN9c3toWFpbxMnTeA3",
+    "fields": {
+      "tier": {
+        "integerValue": "14"
+      },
+      "id": {
+        "stringValue": "rJWWYb7q-YE"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/3/3e/Temple_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "title": {
+        "stringValue": "Temple"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "level": {
+        "integerValue": "81"
+      }
+    },
+    "createTime": "2023-11-06T23:30:01.930248Z",
+    "updateTime": "2023-11-06T23:30:01.930248Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/N3OtwPlBBH9IhkonZ5cP",
+    "fields": {
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "11"
+      },
+      "level": {
+        "integerValue": "78"
+      },
+      "id": {
+        "stringValue": "4kotX0XCx1g"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "title": {
+        "stringValue": "Colonnade"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/2/21/Colonnade_Map_%28Ancestor%29_inventory_icon.png"
+      }
+    },
+    "createTime": "2023-11-01T23:19:07.736635Z",
+    "updateTime": "2023-11-06T21:56:43.144677Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/N3PhjLgfZaYIbfjpmkL5",
+    "fields": {
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "1"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "13"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "title": {
+        "stringValue": "Colosseum"
+      },
+      "level": {
+        "integerValue": "80"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/f/f6/Colosseum_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "6aLf1vDvihE"
+      }
+    },
+    "createTime": "2023-11-01T09:09:36.784332Z",
+    "updateTime": "2023-11-06T21:57:21.330115Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/NidCVy5SlwtGYfqEGAqR",
+    "fields": {
+      "title": {
+        "stringValue": "Conservatory"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/1/1e/Conservatory_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "12"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "level": {
+        "integerValue": "79"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "id": {
+        "stringValue": "187SeuWpExA"
+      }
+    },
+    "createTime": "2023-11-01T08:06:42.197213Z",
+    "updateTime": "2023-11-06T21:57:55.224234Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/O2DArv6dBQ00EqTOUna6",
+    "fields": {
+      "level": {
+        "integerValue": "74"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/c/c3/Coral_Ruins_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "7"
+      },
+      "id": {
+        "stringValue": "f78I0tjaGc8"
+      },
+      "title": {
+        "stringValue": "Coral Ruins"
+      }
+    },
+    "createTime": "2023-10-31T23:53:20.920150Z",
+    "updateTime": "2023-11-06T21:58:37.702332Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/P522I4cjwVWa9vmislTA",
+    "fields": {
+      "id": {
+        "stringValue": "5tIb46gwnhw"
+      },
+      "level": {
+        "integerValue": "82"
+      },
+      "tier": {
+        "integerValue": "15"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "0"
+            }
+          ]
+        }
+      },
+      "title": {
+        "stringValue": "Core"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/9/93/Core_Map_%28Crucible%29_inventory_icon.png"
+      }
+    },
+    "createTime": "2023-11-01T07:53:13.936635Z",
+    "updateTime": "2023-11-06T21:59:11.732314Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/PPKH3CEU382XWQqyWmwe",
+    "fields": {
+      "level": {
+        "integerValue": "79"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/1/1c/Courthouse_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "title": {
+        "stringValue": "Courthouse"
+      },
+      "tier": {
+        "integerValue": "12"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "id": {
+        "stringValue": "6E6Oxmcs2ck"
+      }
+    },
+    "createTime": "2023-10-31T23:17:17.003705Z",
+    "updateTime": "2023-11-06T21:59:45.243664Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/Q8PrxI8cTwJ90BWZUvoH",
+    "fields": {
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/0/02/Courtyard_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "id": {
+        "stringValue": "Uak0wredNXQ"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "tier": {
+        "integerValue": "5"
+      },
+      "title": {
+        "stringValue": "Courtyard"
+      },
+      "level": {
+        "integerValue": "72"
+      }
+    },
+    "createTime": "2023-11-01T08:25:33.430990Z",
+    "updateTime": "2023-11-06T22:00:33.475148Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/RUrdsQTfriE2WulnB3eg",
+    "fields": {
+      "title": {
+        "stringValue": "Coves"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/c/c1/Coves_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "level": {
+        "integerValue": "78"
+      },
+      "tier": {
+        "integerValue": "11"
+      },
+      "id": {
+        "stringValue": "_9javQLOxdw"
+      }
+    },
+    "createTime": "2023-11-01T08:12:29.853473Z",
+    "updateTime": "2023-11-06T22:01:11.105774Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/RX4CKYN3LvuyGF7Uq5K3",
+    "fields": {
+      "tier": {
+        "integerValue": "2"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/c/c8/Wasteland_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "Qi0NdzfeBig"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "title": {
+        "stringValue": "Wasteland"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "level": {
+        "integerValue": "69"
+      }
+    },
+    "createTime": "2023-11-06T23:37:44.487736Z",
+    "updateTime": "2023-11-06T23:37:44.487736Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/RnBKmUvpxaIh80fGZxA0",
+    "fields": {
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "5"
+            }
+          ]
+        }
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "level": {
+        "integerValue": "80"
+      },
+      "title": {
+        "stringValue": "Crater"
+      },
+      "tier": {
+        "integerValue": "13"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/2/28/Crater_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "rDDRLujwFzg"
+      }
+    },
+    "createTime": "2023-11-01T23:51:57.625253Z",
+    "updateTime": "2023-11-06T22:01:49.162229Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/SoVc7MQfcLQHcp1Ppgi5",
+    "fields": {
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/e/e8/Plateau_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "6yTzEhUmdPo"
+      },
+      "title": {
+        "stringValue": "Plateau"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "1"
+      },
+      "level": {
+        "integerValue": "68"
+      },
+      "description": {
+        "stringValue": ""
+      }
+    },
+    "createTime": "2023-11-06T23:14:23.044146Z",
+    "updateTime": "2023-11-06T23:14:23.044146Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/SyXtnoWQ7oYsIHVqCHpB",
+    "fields": {
+      "id": {
+        "stringValue": "uLhUOO32MYk"
+      },
+      "title": {
+        "stringValue": "Reef"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/7/71/Reef_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "0"
+            }
+          ]
+        }
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "level": {
+        "integerValue": "81"
+      },
+      "tier": {
+        "integerValue": "14"
+      }
+    },
+    "createTime": "2023-11-06T23:19:57.250651Z",
+    "updateTime": "2023-11-06T23:19:57.250651Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/TCMZ4BsxT1DTeJt5JKBN",
+    "fields": {
+      "level": {
+        "integerValue": "75"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "8"
+      },
+      "title": {
+        "stringValue": "Shipyard"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/3/3c/Shipyard_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "id": {
+        "stringValue": "ILt3jlcQecw"
+      }
+    },
+    "createTime": "2023-11-06T23:22:29.280261Z",
+    "updateTime": "2023-11-06T23:22:29.280261Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/TbSZhy7Ah5DNoRwpVfIE",
+    "fields": {
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/a/a6/Pit_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "level": {
+        "integerValue": "74"
+      },
+      "title": {
+        "stringValue": "Pit"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "id": {
+        "stringValue": "QxRFnbG9HRg"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "7"
+      }
+    },
+    "createTime": "2023-11-06T23:13:47.282140Z",
+    "updateTime": "2023-11-06T23:13:47.282140Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/U2hEQRHqWeqbBbITF0l2",
+    "fields": {
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/5/5b/Vault_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "title": {
+        "stringValue": "Vault"
+      },
+      "id": {
+        "stringValue": "yPBWnWsT1kI"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "10"
+      },
+      "level": {
+        "integerValue": "77"
+      },
+      "description": {
+        "stringValue": ""
+      }
+    },
+    "createTime": "2023-11-06T23:34:20.444556Z",
+    "updateTime": "2023-11-06T23:34:20.444556Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/UPNjhUqvNuZJmcr8XC5W",
+    "fields": {
+      "id": {
+        "stringValue": "pjfx-j7JfKE"
+      },
+      "level": {
+        "integerValue": "82"
+      },
+      "tier": {
+        "integerValue": "15"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/2/23/Spider_Forest_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "title": {
+        "stringValue": "Spider Forest"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      }
+    },
+    "createTime": "2023-11-06T23:25:59.611405Z",
+    "updateTime": "2023-11-06T23:25:59.611405Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/UVlGixDuPp0Bo6Vytjy6",
+    "fields": {
+      "id": {
+        "stringValue": "YOtlpIUpQUk"
+      },
+      "title": {
+        "stringValue": "Crimson Temple"
+      },
+      "tier": {
+        "integerValue": "10"
+      },
+      "level": {
+        "integerValue": "77"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "5"
+            }
+          ]
+        }
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/4/41/Crimson_Temple_Map_%28Ancestor%29_inventory_icon.png"
+      }
+    },
+    "createTime": "2023-11-01T00:02:40.111585Z",
+    "updateTime": "2023-11-06T22:02:54.098075Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/UnPe1qJw25y4QOO2nf0z",
+    "fields": {
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "level": {
+        "integerValue": "78"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "title": {
+        "stringValue": "Crimson Township"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/1/15/Crimson_Township_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "11"
+      },
+      "id": {
+        "stringValue": "IBf5WAYZX48"
+      }
+    },
+    "createTime": "2023-10-31T23:41:09.479691Z",
+    "updateTime": "2023-11-06T22:03:41.189249Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/VCt5XOADAX6bzdm0DnSY",
+    "fields": {
+      "level": {
+        "integerValue": "75"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/8/85/Crystal_Ore_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "8"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "title": {
+        "stringValue": "Crystal Ore"
+      },
+      "id": {
+        "stringValue": "bcVOdL_MXhE"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      }
+    },
+    "createTime": "2023-11-01T08:55:47.635011Z",
+    "updateTime": "2023-11-06T22:24:53.344605Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/VLKM2kwfxdfFeqVyMq2m",
+    "fields": {
+      "title": {
+        "stringValue": "Cursed Crypt"
+      },
+      "level": {
+        "integerValue": "74"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "tier": {
+        "integerValue": "7"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/9/91/Cursed_Crypt_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "X0yU1SyU4Hk"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      }
+    },
+    "createTime": "2023-10-31T23:14:47.724904Z",
+    "updateTime": "2023-11-06T22:25:40.222576Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/VVBhvZKhwOBNYzIq4l6q",
+    "fields": {
+      "title": {
+        "stringValue": "Dark Forest"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/4/47/Dark_Forest_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "HKLUU5ePDTQ"
+      },
+      "level": {
+        "integerValue": "73"
+      },
+      "tier": {
+        "integerValue": "6"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      }
+    },
+    "createTime": "2023-11-01T08:33:52.696598Z",
+    "updateTime": "2023-11-06T22:26:12.031888Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/Veh24MXMKkg6LVd13nur",
+    "fields": {
+      "tier": {
+        "integerValue": "16"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/3/3c/Silo_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "level": {
+        "integerValue": "83"
+      },
+      "id": {
+        "stringValue": "brYUj8_Jikk"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "title": {
+        "stringValue": "Silo"
+      }
+    },
+    "createTime": "2023-11-06T23:25:29.514791Z",
+    "updateTime": "2023-11-06T23:25:29.514791Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/WB1q97wz0Tkjxblpo6QQ",
+    "fields": {
+      "description": {
+        "stringValue": ""
+      },
+      "tier": {
+        "integerValue": "6"
+      },
+      "id": {
+        "stringValue": "i7AAigiQgxo"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/3/36/Toxic_Sewer_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "title": {
+        "stringValue": "Toxic Sewer"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "5"
+            }
+          ]
+        }
+      },
+      "level": {
+        "integerValue": "73"
+      }
+    },
+    "createTime": "2023-11-06T23:32:06.863195Z",
+    "updateTime": "2023-11-06T23:32:06.863195Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/WKuyKU53UOczPdGuSEDr",
+    "fields": {
+      "title": {
+        "stringValue": "Defiled Cathedral"
+      },
+      "id": {
+        "stringValue": "5BBiHGEN5kI"
+      },
+      "tier": {
+        "integerValue": "13"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "5"
+            }
+          ]
+        }
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/6/62/Defiled_Cathedral_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "level": {
+        "integerValue": "80"
+      }
+    },
+    "createTime": "2023-11-01T07:55:54.707936Z",
+    "updateTime": "2023-11-06T22:26:43.434529Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/X37t8tiEw8YlGMxAyeFP",
+    "fields": {
+      "tier": {
+        "integerValue": "11"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/f/fb/Villa_Map_%28The_Forbidden_Sanctum%29_inventory_icon.png"
+      },
+      "level": {
+        "integerValue": "78"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "title": {
+        "stringValue": "Villa"
+      },
+      "id": {
+        "stringValue": "1pu4J0DnacE"
+      }
+    },
+    "createTime": "2023-11-06T23:34:56.699655Z",
+    "updateTime": "2023-11-06T23:34:56.699655Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/XTKgdMdYagLPkGyzLoCu",
+    "fields": {
+      "description": {
+        "stringValue": ""
+      },
+      "id": {
+        "stringValue": "YUplqbMbnUI"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "9"
+      },
+      "title": {
+        "stringValue": "Summit"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/6/61/Summit_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "level": {
+        "integerValue": "76"
+      }
+    },
+    "createTime": "2023-11-06T23:28:49.068816Z",
+    "updateTime": "2023-11-06T23:28:49.068816Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/Y7yiGnNmUFZedB2fZWN1",
+    "fields": {
+      "level": {
+        "integerValue": "76"
+      },
+      "id": {
+        "stringValue": "8-bntF3evnY"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "title": {
+        "stringValue": "Desert"
+      },
+      "tier": {
+        "integerValue": "9"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/e/e5/Desert_Map_%28The_Forbidden_Sanctum%29_inventory_icon.png"
+      },
+      "description": {
+        "stringValue": ""
+      }
+    },
+    "createTime": "2023-11-01T08:44:51.278460Z",
+    "updateTime": "2023-11-06T22:27:20.166746Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/ZXco7MlR5pfuk9uQcwqX",
+    "fields": {
+      "tier": {
+        "integerValue": "12"
+      },
+      "id": {
+        "stringValue": "sCnyZbgUOOc"
+      },
+      "title": {
+        "stringValue": "Desert Spring"
+      },
+      "level": {
+        "integerValue": "79"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/9/95/Desert_Spring_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "1"
+            }
+          ]
+        }
+      }
+    },
+    "createTime": "2023-11-01T00:11:48.637689Z",
+    "updateTime": "2023-11-06T22:27:50.337314Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/ZjW9myvBi9Z3vnbDfCBl",
+    "fields": {
+      "description": {
+        "stringValue": ""
+      },
+      "title": {
+        "stringValue": "Dig"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "id": {
+        "stringValue": "vstbgJJtlE0"
+      },
+      "level": {
+        "integerValue": "83"
+      },
+      "tier": {
+        "integerValue": "16"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/e/eb/Dig_Map_%28Crucible%29_inventory_icon.png"
+      }
+    },
+    "createTime": "2023-11-01T08:43:46.513242Z",
+    "updateTime": "2023-11-06T22:28:20.615275Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/adDsbDkkiTLkBuCDTslS",
+    "fields": {
+      "description": {
+        "stringValue": ""
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/b/b1/Dry_Sea_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "Dqo1GiLrpwU"
+      },
+      "title": {
+        "stringValue": "Dry Sea"
+      },
+      "tier": {
+        "integerValue": "2"
+      },
+      "level": {
+        "integerValue": "69"
+      }
+    },
+    "createTime": "2023-11-01T08:00:37.522620Z",
+    "updateTime": "2023-11-06T22:29:05.942879Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/ak7fURR6C6CQQgLz1MG2",
+    "fields": {
+      "id": {
+        "stringValue": "shyAfJw1Dk8"
+      },
+      "title": {
+        "stringValue": "Dunes"
+      },
+      "tier": {
+        "integerValue": "2"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/7/7d/Dunes_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "5"
+            }
+          ]
+        }
+      },
+      "level": {
+        "integerValue": "69"
+      }
+    },
+    "createTime": "2023-11-01T00:06:51.533190Z",
+    "updateTime": "2023-11-06T22:29:45.137719Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/aweHLnNl4l5Mm4fKWFc5",
+    "fields": {
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/9/93/Dungeon_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "11"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "id": {
+        "stringValue": "u5Umx8qnoSQ"
+      },
+      "level": {
+        "integerValue": "78"
+      },
+      "title": {
+        "stringValue": "Dungeon"
+      }
+    },
+    "createTime": "2023-10-31T23:22:33.336282Z",
+    "updateTime": "2023-11-06T22:30:14.112201Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/b4fe5qLNR96gAYTZ2eL0",
+    "fields": {
+      "title": {
+        "stringValue": "Estuary"
+      },
+      "level": {
+        "integerValue": "69"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/2/20/Estuary_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "BFFD9LVYLyY"
+      },
+      "tier": {
+        "integerValue": "2"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      }
+    },
+    "createTime": "2023-11-02T00:04:29.127874Z",
+    "updateTime": "2023-11-06T22:30:54.550463Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/b9ubkYRVYtpoWrYjf53n",
+    "fields": {
+      "tier": {
+        "integerValue": "4"
+      },
+      "level": {
+        "integerValue": "71"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/1/10/Spider_Lair_Map_%28The_Forbidden_Sanctum%29_inventory_icon.png"
+      },
+      "title": {
+        "stringValue": "Spider Lair"
+      },
+      "id": {
+        "stringValue": "X58vCRsquVw"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      }
+    },
+    "createTime": "2023-11-06T23:26:29.842876Z",
+    "updateTime": "2023-11-06T23:26:29.842876Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/buMeDEx0Fn8bYRms4uzS",
+    "fields": {
+      "description": {
+        "stringValue": ""
+      },
+      "level": {
+        "integerValue": "78"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/a/ae/Excavation_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "11"
+      },
+      "id": {
+        "stringValue": "K6MP2-jIWh8"
+      },
+      "title": {
+        "stringValue": "Excavation"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      }
+    },
+    "createTime": "2023-10-31T22:54:09.718060Z",
+    "updateTime": "2023-11-06T22:31:38.122532Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/bxZs8s4gjhlpYQLIRMXo",
+    "fields": {
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/1/18/Factory_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "level": {
+        "integerValue": "75"
+      },
+      "title": {
+        "stringValue": "Factory"
+      },
+      "tier": {
+        "integerValue": "8"
+      },
+      "id": {
+        "stringValue": "UWH04BbAdBQ"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      }
+    },
+    "createTime": "2023-11-02T00:00:35.129878Z",
+    "updateTime": "2023-11-06T22:32:20.389267Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/cFesg38VCd5BGod28zlr",
+    "fields": {
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/8/87/Phantasmagoria_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "15"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "title": {
+        "stringValue": "Phantasmagoria"
+      },
+      "level": {
+        "integerValue": "82"
+      },
+      "id": {
+        "stringValue": "mcjy6bUNFNo"
+      }
+    },
+    "createTime": "2023-11-06T23:12:22.574819Z",
+    "updateTime": "2023-11-06T23:12:22.574819Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/cNce831qLgeQEgCVh95I",
+    "fields": {
+      "id": {
+        "stringValue": "SESb2KrcQAY"
+      },
+      "tier": {
+        "integerValue": "3"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "level": {
+        "integerValue": "70"
+      },
+      "title": {
+        "stringValue": "Fields"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/1/1d/Fields_Map_%28Crucible%29_inventory_icon.png"
+      }
+    },
+    "createTime": "2023-10-31T19:29:02.969723Z",
+    "updateTime": "2023-11-06T22:32:57.702765Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/cO06Jv6DsXWzVpJWZDHI",
+    "fields": {
+      "level": {
+        "integerValue": "76"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/d/d6/Flooded_Mine_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "8jOW_BQot4w"
+      },
+      "title": {
+        "stringValue": "Flooded Mine"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "tier": {
+        "integerValue": "9"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      }
+    },
+    "createTime": "2023-11-01T08:10:18.267011Z",
+    "updateTime": "2023-11-06T22:33:42.774010Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/dyXM1GVfymMtYl3ME9Iw",
+    "fields": {
+      "id": {
+        "stringValue": "C1S5E5HtHCQ"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/1/1a/Forbidden_Woods_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "7"
+      },
+      "level": {
+        "integerValue": "74"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "title": {
+        "stringValue": "Forbidden Woods"
+      }
+    },
+    "createTime": "2023-11-01T23:05:29.638423Z",
+    "updateTime": "2023-11-06T22:36:35.881372Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/egbsV7uO1T0gy8YWgxwe",
+    "fields": {
+      "description": {
+        "stringValue": ""
+      },
+      "tier": {
+        "integerValue": "3"
+      },
+      "id": {
+        "stringValue": "ShCH6o2sWog"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/0/0c/Forking_River_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "level": {
+        "integerValue": "70"
+      },
+      "title": {
+        "stringValue": "Forking River"
+      }
+    },
+    "createTime": "2023-11-01T09:05:40.593233Z",
+    "updateTime": "2023-11-06T22:37:16.683528Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/fcIOrtoPMExiNzYYaPDX",
+    "fields": {
+      "description": {
+        "stringValue": ""
+      },
+      "id": {
+        "stringValue": "xsr1lwqGQ78"
+      },
+      "level": {
+        "integerValue": "81"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/6/6f/Wharf_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "title": {
+        "stringValue": "Wharf"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "14"
+      }
+    },
+    "createTime": "2023-11-06T23:38:46.852384Z",
+    "updateTime": "2023-11-06T23:38:46.852384Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/fmu299PMJovisTsKcA2Y",
+    "fields": {
+      "level": {
+        "integerValue": "77"
+      },
+      "title": {
+        "stringValue": "Foundry"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "id": {
+        "stringValue": "YpC40tsUPxg"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/4/4b/Foundry_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "10"
+      }
+    },
+    "createTime": "2023-11-01T08:52:43.468421Z",
+    "updateTime": "2023-11-06T22:39:05.612044Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/fppAiPVsEzzUSJ7higHs",
+    "fields": {
+      "tier": {
+        "integerValue": "7"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/5/5e/Frozen_Cabins_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "m13iJV_3ldA"
+      },
+      "level": {
+        "integerValue": "74"
+      },
+      "title": {
+        "stringValue": "Frozen Cabins"
+      }
+    },
+    "createTime": "2023-10-31T22:16:23.140315Z",
+    "updateTime": "2023-11-06T22:39:56.728343Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/hOqabovTl4YiuBJ7xXdS",
+    "fields": {
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/5/58/Fungal_Hollow_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "title": {
+        "stringValue": "Fungal Hollow"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "id": {
+        "stringValue": "9j9aSNcvEcI"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "5"
+            }
+          ]
+        }
+      },
+      "level": {
+        "integerValue": "81"
+      },
+      "tier": {
+        "integerValue": "14"
+      }
+    },
+    "createTime": "2023-11-01T09:08:16.644492Z",
+    "updateTime": "2023-11-06T22:40:28.908534Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/hdj7vYdUSFO56IZgofm7",
+    "fields": {
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "title": {
+        "stringValue": "Shrine"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/5/5d/Shrine_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "3"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "id": {
+        "stringValue": "L0SWD6moNDM"
+      },
+      "level": {
+        "integerValue": "70"
+      }
+    },
+    "createTime": "2023-11-06T23:23:31.684896Z",
+    "updateTime": "2023-11-06T23:23:31.684896Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/hr4FE3amhp4m8BQahxCu",
+    "fields": {
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/e/ee/Siege_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "title": {
+        "stringValue": "Siege"
+      },
+      "level": {
+        "integerValue": "82"
+      },
+      "id": {
+        "stringValue": "nfA-UxnLkPs"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "tier": {
+        "integerValue": "15"
+      }
+    },
+    "createTime": "2023-11-06T23:24:08.570566Z",
+    "updateTime": "2023-11-06T23:24:08.570566Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/hyUTmguBebX9HNt7mfM2",
+    "fields": {
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/3/3f/Primordial_Pool_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "BcepPBs8CoY"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "level": {
+        "integerValue": "71"
+      },
+      "title": {
+        "stringValue": "Primordial Pool"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "4"
+      }
+    },
+    "createTime": "2023-11-06T23:17:05.337008Z",
+    "updateTime": "2023-11-06T23:17:05.337008Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/i8NRlWxLG0temrfxmRSP",
+    "fields": {
+      "title": {
+        "stringValue": "Gardens"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "level": {
+        "integerValue": "77"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/4/4b/Gardens_Map_%28The_Forbidden_Sanctum%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "xbTuZhi-f3E"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "tier": {
+        "integerValue": "10"
+      }
+    },
+    "createTime": "2023-10-31T23:08:03.245271Z",
+    "updateTime": "2023-11-06T22:41:01.261696Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/iG1ef4VCHML7jCi5uhUQ",
+    "fields": {
+      "description": {
+        "stringValue": ""
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/5/5e/Geode_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "11"
+      },
+      "id": {
+        "stringValue": "hV4ejSerZmk"
+      },
+      "level": {
+        "integerValue": "78"
+      },
+      "title": {
+        "stringValue": "Geode"
+      }
+    },
+    "createTime": "2023-10-31T22:39:12.683105Z",
+    "updateTime": "2023-11-06T22:41:37.878307Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/iRBowTwkmU846Knv8LcP",
+    "fields": {
+      "title": {
+        "stringValue": "Ghetto"
+      },
+      "level": {
+        "integerValue": "83"
+      },
+      "id": {
+        "stringValue": "z_FbzIuo3MI"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/5/51/Ghetto_Map_%28The_Forbidden_Sanctum%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "16"
+      }
+    },
+    "createTime": "2023-11-01T23:48:57.316815Z",
+    "updateTime": "2023-11-06T22:42:49.749170Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/iiYOD4LylsVEPMnG8aVy",
+    "fields": {
+      "description": {
+        "stringValue": ""
+      },
+      "tier": {
+        "integerValue": "13"
+      },
+      "title": {
+        "stringValue": "Sunken City"
+      },
+      "level": {
+        "integerValue": "80"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "id": {
+        "stringValue": "U9TrnIboTM8"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/0/0c/Sunken_City_Map_%28Ancestor%29_inventory_icon.png"
+      }
+    },
+    "createTime": "2023-11-06T23:29:25.005170Z",
+    "updateTime": "2023-11-06T23:29:25.005170Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/imob0MLBukfSXMGGAWlx",
+    "fields": {
+      "level": {
+        "integerValue": "80"
+      },
+      "id": {
+        "stringValue": "zlnr_VXnVQU"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "title": {
+        "stringValue": "Glacier"
+      },
+      "tier": {
+        "integerValue": "13"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/8/81/Glacier_Map_%28Ancestor%29_inventory_icon.png"
+      }
+    },
+    "createTime": "2023-10-31T23:59:53.645523Z",
+    "updateTime": "2023-11-06T22:43:27.235189Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/ito1r7EBka37QN535FQw",
+    "fields": {
+      "level": {
+        "integerValue": "69"
+      },
+      "tier": {
+        "integerValue": "2"
+      },
+      "id": {
+        "stringValue": "azd4MBc6XQM"
+      },
+      "title": {
+        "stringValue": "Grave Trough"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/1/19/Grave_Trough_Map_%28Ancestor%29_inventory_icon.png"
+      }
+    },
+    "createTime": "2023-10-31T22:19:08.502409Z",
+    "updateTime": "2023-11-06T22:44:35.201842Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/iultuuzwumH6we8Zg2Yn",
+    "fields": {
+      "tier": {
+        "integerValue": "3"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/7/7e/Sepulchre_Map_%28The_Forbidden_Sanctum%29_inventory_icon.png"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "1"
+            }
+          ]
+        }
+      },
+      "title": {
+        "stringValue": "Sepulchre"
+      },
+      "id": {
+        "stringValue": "VDwTck6poo4"
+      },
+      "level": {
+        "integerValue": "70"
+      }
+    },
+    "createTime": "2023-11-06T23:21:58.680150Z",
+    "updateTime": "2023-11-06T23:21:58.680150Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/iwhSrGZQCbPeXv0CPA8w",
+    "fields": {
+      "tier": {
+        "integerValue": "4"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "level": {
+        "integerValue": "71"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "id": {
+        "stringValue": "PSO55ry58Ig"
+      },
+      "title": {
+        "stringValue": "Graveyard"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/b/bf/Graveyard_Map_%28Ancestor%29_inventory_icon.png"
+      }
+    },
+    "createTime": "2023-11-01T08:36:11.846147Z",
+    "updateTime": "2023-11-06T22:45:23.508557Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/jDhmgEpR7P2IMLygkP6O",
+    "fields": {
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/f/f4/Grotto_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "level": {
+        "integerValue": "69"
+      },
+      "tier": {
+        "integerValue": "2"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "id": {
+        "stringValue": "lLwFmQHOJcA"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "title": {
+        "stringValue": "Grotto"
+      }
+    },
+    "createTime": "2023-10-31T22:50:59.647127Z",
+    "updateTime": "2023-11-06T22:46:37.696796Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/jWEQhaiK6tOZ5i7vR3uI",
+    "fields": {
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/0/09/Thicket_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "6"
+      },
+      "id": {
+        "stringValue": "xhakCYBhEqE"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "title": {
+        "stringValue": "Thicket"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "level": {
+        "integerValue": "73"
+      }
+    },
+    "createTime": "2023-11-06T23:31:04.741894Z",
+    "updateTime": "2023-11-06T23:31:04.741894Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/jfQ7uzT1qCFm9A0ZC2n2",
+    "fields": {
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/f/f5/Plaza_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "level": {
+        "integerValue": "77"
+      },
+      "tier": {
+        "integerValue": "10"
+      },
+      "id": {
+        "stringValue": "hscPZawcG6I"
+      },
+      "title": {
+        "stringValue": "Plaza"
+      }
+    },
+    "createTime": "2023-11-06T23:15:02.355209Z",
+    "updateTime": "2023-11-06T23:15:02.355209Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/kOafA4bFTnYBEMvonjVp",
+    "fields": {
+      "title": {
+        "stringValue": "Haunted Mansion"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/7/78/Haunted_Mansion_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "level": {
+        "integerValue": "76"
+      },
+      "tier": {
+        "integerValue": "9"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "id": {
+        "stringValue": "9YcbvbkBHjk"
+      }
+    },
+    "createTime": "2023-10-31T23:58:08.304179Z",
+    "updateTime": "2023-11-06T22:47:10.024833Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/kRgUlONbTNih3JAAFkPg",
+    "fields": {
+      "level": {
+        "integerValue": "74"
+      },
+      "title": {
+        "stringValue": "Pier"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/5/5a/Pier_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "7"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "1"
+            }
+          ]
+        }
+      },
+      "id": {
+        "stringValue": "ICOhwLmeHts"
+      }
+    },
+    "createTime": "2023-11-06T23:13:13.101145Z",
+    "updateTime": "2023-11-06T23:13:13.101145Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/kjB2U4f4Tmfv4Qqx9zmW",
+    "fields": {
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/e/e9/Shore_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "sd6eghiZ4e8"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "title": {
+        "stringValue": "Shore"
+      },
+      "tier": {
+        "integerValue": "6"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "5"
+            }
+          ]
+        }
+      },
+      "level": {
+        "integerValue": "73"
+      }
+    },
+    "createTime": "2023-11-06T23:22:58.879440Z",
+    "updateTime": "2023-11-06T23:22:58.879440Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/kxNYtJ6F8T9LKJa0X1WE",
+    "fields": {
+      "title": {
+        "stringValue": "Iceberg"
+      },
+      "tier": {
+        "integerValue": "4"
+      },
+      "id": {
+        "stringValue": "qxDTzbN40kg"
+      },
+      "level": {
+        "integerValue": "71"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/0/02/Iceberg_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      }
+    },
+    "createTime": "2023-11-01T08:19:24.765647Z",
+    "updateTime": "2023-11-06T22:47:43.392602Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/lKVIocCCP5yrNI626A1E",
+    "fields": {
+      "level": {
+        "integerValue": "83"
+      },
+      "title": {
+        "stringValue": "Infested Valley"
+      },
+      "id": {
+        "stringValue": "m1HjkcQQQ1Q"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/5/5f/Infested_Valley_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "16"
+      },
+      "description": {
+        "stringValue": ""
+      }
+    },
+    "createTime": "2023-11-01T07:57:10.047894Z",
+    "updateTime": "2023-11-06T22:48:23.785423Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/lYKB5y0L5PAdkDS6SUJZ",
+    "fields": {
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "level": {
+        "integerValue": "83"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/8/80/Ivory_Temple_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "u6GFYicUdlQ"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "title": {
+        "stringValue": "Ivory Temple"
+      },
+      "tier": {
+        "integerValue": "16"
+      }
+    },
+    "createTime": "2023-11-01T00:17:29.311722Z",
+    "updateTime": "2023-11-06T22:48:54.383394Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/lhQLQvyyx4GhGjRFiFYO",
+    "fields": {
+      "tier": {
+        "integerValue": "3"
+      },
+      "title": {
+        "stringValue": "Residence"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/0/02/Residence_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "zup9O2BR9gY"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "level": {
+        "integerValue": "70"
+      }
+    },
+    "createTime": "2023-11-06T23:21:00.400487Z",
+    "updateTime": "2023-11-06T23:21:00.400487Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/m3DbT1YLUBSCCxaK3S4X",
+    "fields": {
+      "description": {
+        "stringValue": ""
+      },
+      "title": {
+        "stringValue": "Vaal Pyramid"
+      },
+      "level": {
+        "integerValue": "71"
+      },
+      "id": {
+        "stringValue": "59x39n6WnF0"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "4"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/c/c0/Vaal_Pyramid_Map_%28Ancestor%29_inventory_icon.png"
+      }
+    },
+    "createTime": "2023-11-06T23:35:56.212730Z",
+    "updateTime": "2023-11-06T23:35:56.212730Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/mU8iWCcwRLpVUA8j8Bs9",
+    "fields": {
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "tier": {
+        "integerValue": "12"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/0/0b/Jungle_Valley_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "GPYzGwyZt3E"
+      },
+      "title": {
+        "stringValue": "Jungle Valley"
+      },
+      "level": {
+        "integerValue": "79"
+      }
+    },
+    "createTime": "2023-11-01T08:34:59.550850Z",
+    "updateTime": "2023-11-06T22:49:22.354099Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/mpMIMnSZQKBGekO5HL0z",
+    "fields": {
+      "tier": {
+        "integerValue": "9"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "id": {
+        "stringValue": "QayzrbBlyEg"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/e/e4/Ramparts_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "5"
+            }
+          ]
+        }
+      },
+      "level": {
+        "integerValue": "76"
+      },
+      "title": {
+        "stringValue": "Ramparts"
+      }
+    },
+    "createTime": "2023-11-06T23:18:51.873533Z",
+    "updateTime": "2023-11-06T23:18:51.873533Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/n814piQGlBMBy8BhJYkT",
+    "fields": {
+      "level": {
+        "integerValue": "71"
+      },
+      "id": {
+        "stringValue": "Q-w-TFv1doA"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "1"
+            }
+          ]
+        }
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/1/1a/Laboratory_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "title": {
+        "stringValue": "Laboratory"
+      },
+      "tier": {
+        "integerValue": "4"
+      }
+    },
+    "createTime": "2023-11-01T08:42:37.335352Z",
+    "updateTime": "2023-11-06T22:49:58.300856Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/nNTECmrrJBhmOxsCBKpm",
+    "fields": {
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "1"
+      },
+      "title": {
+        "stringValue": "Scriptorium"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/b/b9/Scriptorium_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "level": {
+        "integerValue": "68"
+      },
+      "id": {
+        "stringValue": "6UbvptUv43E"
+      },
+      "description": {
+        "stringValue": ""
+      }
+    },
+    "createTime": "2023-11-06T23:21:31.574392Z",
+    "updateTime": "2023-11-06T23:21:31.574392Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/oj2oUocSPc66zeluUImL",
+    "fields": {
+      "title": {
+        "stringValue": "Racecourse"
+      },
+      "tier": {
+        "integerValue": "9"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/3/3b/Racecourse_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "level": {
+        "integerValue": "76"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "id": {
+        "stringValue": "aIwckco-21A"
+      }
+    },
+    "createTime": "2023-11-06T23:18:12.057148Z",
+    "updateTime": "2023-11-06T23:18:12.057148Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/otFb5V5Ldd8d6eLR2DpE",
+    "fields": {
+      "description": {
+        "stringValue": ""
+      },
+      "tier": {
+        "integerValue": "3"
+      },
+      "id": {
+        "stringValue": "EFDv1zNNHPM"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "level": {
+        "integerValue": "70"
+      },
+      "title": {
+        "stringValue": "Lair"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/4/4a/Lair_Map_%28Crucible%29_inventory_icon.png"
+      }
+    },
+    "createTime": "2023-11-01T08:32:40.087343Z",
+    "updateTime": "2023-11-06T22:50:38.534630Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/oxpzwSijBh8iEFZlypH2",
+    "fields": {
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "level": {
+        "integerValue": "74"
+      },
+      "title": {
+        "stringValue": "Lava Chamber"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/b/b4/Lava_Chamber_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "7"
+      },
+      "id": {
+        "stringValue": "dO0orl8H7Xk"
+      }
+    },
+    "createTime": "2023-11-01T23:46:33.287343Z",
+    "updateTime": "2023-11-06T22:51:12.574697Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/pQKcqEq4alSHfhqN2bPX",
+    "fields": {
+      "id": {
+        "stringValue": "hfnoaadi3XU"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/6/63/Lava_Lake_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "title": {
+        "stringValue": "Lava Lake"
+      },
+      "level": {
+        "integerValue": "80"
+      },
+      "tier": {
+        "integerValue": "13"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "0"
+            }
+          ]
+        }
+      }
+    },
+    "createTime": "2023-10-27T08:04:11.484374Z",
+    "updateTime": "2023-11-06T22:51:48.678359Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/pe4rL0HIsPHZmLSyeFTx",
+    "fields": {
+      "id": {
+        "stringValue": "Joq1uTHx8H0"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "level": {
+        "integerValue": "77"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/7/72/Underground_Sea_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "10"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "title": {
+        "stringValue": "Underground Sea"
+      }
+    },
+    "createTime": "2023-11-06T23:33:45.397137Z",
+    "updateTime": "2023-11-06T23:33:45.397137Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/pg4fMiG28D8t3B3Zldsl",
+    "fields": {
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/6/6f/Leyline_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "XqZn-I_nyqo"
+      },
+      "title": {
+        "stringValue": "Leyline"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "5"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "level": {
+        "integerValue": "72"
+      }
+    },
+    "createTime": "2023-11-01T08:58:59.880759Z",
+    "updateTime": "2023-11-06T22:52:18.789348Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/qAWlv9d032UML9IH9h0M",
+    "fields": {
+      "level": {
+        "integerValue": "79"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "12"
+      },
+      "title": {
+        "stringValue": "Sulphur Vents"
+      },
+      "id": {
+        "stringValue": "iBbM3At2dfU"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/c/cd/Sulphur_Vents_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "description": {
+        "stringValue": ""
+      }
+    },
+    "createTime": "2023-11-06T23:28:12.019607Z",
+    "updateTime": "2023-11-06T23:28:12.019607Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/qyTHSdztkK2NqhIbLpvw",
+    "fields": {
+      "tier": {
+        "integerValue": "4"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/3/37/Lighthouse_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "title": {
+        "stringValue": "Lighthouse"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "id": {
+        "stringValue": "LJVLFy92eNQ"
+      },
+      "level": {
+        "integerValue": "71"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      }
+    },
+    "createTime": "2023-11-01T23:25:21.566694Z",
+    "updateTime": "2023-11-06T22:52:52.129546Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/rMwKktvK8wyeX2kfEdpS",
+    "fields": {
+      "id": {
+        "stringValue": "qvQ-M-q-uuU"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "level": {
+        "integerValue": "70"
+      },
+      "title": {
+        "stringValue": "Lookout"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/f/fb/Lookout_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "3"
+      }
+    },
+    "createTime": "2023-11-01T08:08:00.977418Z",
+    "updateTime": "2023-11-06T22:54:43.489268Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/rNHdQuTEsbIBzfDFyStM",
+    "fields": {
+      "id": {
+        "stringValue": "jCGztYhC40Y"
+      },
+      "level": {
+        "integerValue": "71"
+      },
+      "tier": {
+        "integerValue": "4"
+      },
+      "title": {
+        "stringValue": "Malformation"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/c/cd/Malformation_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "1"
+            }
+          ]
+        }
+      },
+      "description": {
+        "stringValue": ""
+      }
+    },
+    "createTime": "2023-11-01T09:02:59.028115Z",
+    "updateTime": "2023-11-06T22:55:10.638282Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/rektPHZxFQT5PTOHeVtv",
+    "fields": {
+      "tier": {
+        "integerValue": "5"
+      },
+      "id": {
+        "stringValue": "NiO_uMO8HBU"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "title": {
+        "stringValue": "Marshes"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/2/2c/Marshes_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "level": {
+        "integerValue": "72"
+      }
+    },
+    "createTime": "2023-10-31T23:44:43.531818Z",
+    "updateTime": "2023-11-06T22:55:40.116346Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/rkHKAjkzSZGCYGcDMBtQ",
+    "fields": {
+      "description": {
+        "stringValue": ""
+      },
+      "title": {
+        "stringValue": "Mausoleum"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/c/c3/Mausoleum_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "12"
+      },
+      "level": {
+        "integerValue": "79"
+      },
+      "id": {
+        "stringValue": "XFpf-U6DLcc"
+      }
+    },
+    "createTime": "2023-11-01T23:27:33.427621Z",
+    "updateTime": "2023-11-06T22:57:07.951385Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/rr281gueBCjN19svolZ0",
+    "fields": {
+      "description": {
+        "stringValue": ""
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "5"
+            }
+          ]
+        }
+      },
+      "id": {
+        "stringValue": "3upQrYuFEdQ"
+      },
+      "title": {
+        "stringValue": "Tropical Island"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/9/9d/Tropical_Island_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "5"
+      },
+      "level": {
+        "integerValue": "72"
+      }
+    },
+    "createTime": "2023-11-06T23:32:43.369867Z",
+    "updateTime": "2023-11-06T23:32:43.369867Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/rriqNtRaUKSwkz6i64pV",
+    "fields": {
+      "level": {
+        "integerValue": "81"
+      },
+      "id": {
+        "stringValue": "VxZVg-vcBX0"
+      },
+      "title": {
+        "stringValue": "Maze"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "14"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/0/0e/Maze_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "description": {
+        "stringValue": ""
+      }
+    },
+    "createTime": "2023-11-01T23:07:22.177036Z",
+    "updateTime": "2023-11-06T22:57:58.069464Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/sinapjckeEzAhbMidkGB",
+    "fields": {
+      "title": {
+        "stringValue": "Mesa"
+      },
+      "level": {
+        "integerValue": "70"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/b/b6/Mesa_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "id": {
+        "stringValue": "RsHKjJFIpM0"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "tier": {
+        "integerValue": "3"
+      }
+    },
+    "createTime": "2023-11-01T23:38:33.923657Z",
+    "updateTime": "2023-11-06T22:58:56.229459Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/t3Q312yWWK6IQJblKRej",
+    "fields": {
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/d/d0/Mineral_Pools_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "level": {
+        "integerValue": "69"
+      },
+      "id": {
+        "stringValue": "eLR3wg8IK8g"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "title": {
+        "stringValue": "Mineral Pools"
+      },
+      "tier": {
+        "integerValue": "2"
+      }
+    },
+    "createTime": "2023-11-02T00:02:20.632429Z",
+    "updateTime": "2023-11-06T22:59:27.639289Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/tPnAQ0Xt8pt7Q95BQDkM",
+    "fields": {
+      "tier": {
+        "integerValue": "15"
+      },
+      "level": {
+        "integerValue": "82"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/7/79/Underground_River_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "_v03HUEDS7o"
+      },
+      "title": {
+        "stringValue": "Underground River"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      }
+    },
+    "createTime": "2023-11-06T23:33:15.412871Z",
+    "updateTime": "2023-11-06T23:33:15.412871Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/uanTeMGiHa9SYLN9KcWk",
+    "fields": {
+      "id": {
+        "stringValue": "c67hxIymzaI"
+      },
+      "level": {
+        "integerValue": "71"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "tier": {
+        "integerValue": "4"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/0/05/Moon_Temple_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "title": {
+        "stringValue": "Moon Temple"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      }
+    },
+    "createTime": "2023-11-02T00:07:45.266110Z",
+    "updateTime": "2023-11-06T23:00:11.966568Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/vJCUx0IF5RW01uHTmao3",
+    "fields": {
+      "level": {
+        "integerValue": "82"
+      },
+      "tier": {
+        "integerValue": "15"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/0/04/Mud_Geyser_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "QnbYLrk5gw0"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "title": {
+        "stringValue": "Mud Geyser"
+      }
+    },
+    "createTime": "2023-10-31T23:54:52.203066Z",
+    "updateTime": "2023-11-06T23:00:52.457775Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/wRdzF86nMTDAGd7eywoH",
+    "fields": {
+      "title": {
+        "stringValue": "Museum"
+      },
+      "level": {
+        "integerValue": "79"
+      },
+      "tier": {
+        "integerValue": "12"
+      },
+      "id": {
+        "stringValue": "au9-7gw5ixQ"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/5/55/Museum_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "description": {
+        "stringValue": ""
+      }
+    },
+    "createTime": "2023-11-01T08:37:29.722403Z",
+    "updateTime": "2023-11-06T23:01:33.267242Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/xEvH52kOuYcTpfP7fHoZ",
+    "fields": {
+      "description": {
+        "stringValue": ""
+      },
+      "level": {
+        "integerValue": "75"
+      },
+      "id": {
+        "stringValue": "_duNMBEwfVw"
+      },
+      "title": {
+        "stringValue": "Port"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/0/04/Port_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "tier": {
+        "integerValue": "8"
+      }
+    },
+    "createTime": "2023-11-06T23:15:36.020700Z",
+    "updateTime": "2023-11-06T23:15:36.020700Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/xf2yqJGyZJ4ErrLfdCys",
+    "fields": {
+      "tier": {
+        "integerValue": "12"
+      },
+      "id": {
+        "stringValue": "rYGbbK8fj4Y"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/1/11/Necropolis_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "level": {
+        "integerValue": "79"
+      },
+      "title": {
+        "stringValue": "Necropolis"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "description": {
+        "stringValue": ""
+      }
+    },
+    "createTime": "2023-11-01T08:21:33.115848Z",
+    "updateTime": "2023-11-06T23:02:00.993651Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/xfNG7u48RIw4IwDXrnXW",
+    "fields": {
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "title": {
+        "stringValue": "Orchard"
+      },
+      "id": {
+        "stringValue": "vf_mediZuVM"
+      },
+      "level": {
+        "integerValue": "77"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/8/81/Orchard_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "10"
+      }
+    },
+    "createTime": "2023-11-01T08:48:44.564845Z",
+    "updateTime": "2023-11-06T23:02:32.231845Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/xy0wozGE7WQ1tPadTfMc",
+    "fields": {
+      "title": {
+        "stringValue": "Overgrown Ruin"
+      },
+      "id": {
+        "stringValue": "K3GXz75PJ2A"
+      },
+      "tier": {
+        "integerValue": "9"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/1/1f/Overgrown_Ruin_Map_%28Crucible%29_inventory_icon.png"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "level": {
+        "integerValue": "76"
+      },
+      "description": {
+        "stringValue": ""
+      }
+    },
+    "createTime": "2023-11-01T08:40:03.944583Z",
+    "updateTime": "2023-11-06T23:03:05.877329Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/y2vvxlWUudbFeaQihrK3",
+    "fields": {
+      "tier": {
+        "integerValue": "3"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "level": {
+        "integerValue": "70"
+      },
+      "id": {
+        "stringValue": "bDu57zRH3Vc"
+      },
+      "title": {
+        "stringValue": "Overgrown Shrine"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/2/2d/Overgrown_Shrine_Map_%28Ancestor%29_inventory_icon.png"
+      }
+    },
+    "createTime": "2023-10-31T19:22:18.733899Z",
+    "updateTime": "2023-11-06T23:03:44.155134Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/yAdz0484HWscWloot0o0",
+    "fields": {
+      "title": {
+        "stringValue": "Palace"
+      },
+      "id": {
+        "stringValue": "6z-FR9mHHIk"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/0/00/Palace_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "2"
+            }
+          ]
+        }
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "level": {
+        "integerValue": "79"
+      },
+      "tier": {
+        "integerValue": "12"
+      }
+    },
+    "createTime": "2023-11-01T23:57:14.926779Z",
+    "updateTime": "2023-11-06T23:04:16.923160Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/yVKChY7lZf6fxXllsbN2",
+    "fields": {
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/7/7a/Park_Map_%28Kalandra%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "-jlKVBJGeeU"
+      },
+      "title": {
+        "stringValue": "Park"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "3"
+            },
+            {
+              "integerValue": "1"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      },
+      "level": {
+        "integerValue": "70"
+      },
+      "tier": {
+        "integerValue": "3"
+      },
+      "description": {
+        "stringValue": ""
+      }
+    },
+    "createTime": "2023-11-01T08:45:55.388036Z",
+    "updateTime": "2023-11-06T23:04:54.855525Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/ynWP3tgZw0EyEIwITxwv",
+    "fields": {
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "3"
+            }
+          ]
+        }
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/9/9b/Pen_Map_%28Ancestor%29_inventory_icon.png"
+      },
+      "id": {
+        "stringValue": "W3-oU9qNFWQ"
+      },
+      "description": {
+        "stringValue": ""
+      },
+      "title": {
+        "stringValue": "Pen"
+      },
+      "tier": {
+        "integerValue": "7"
+      },
+      "level": {
+        "integerValue": "74"
+      }
+    },
+    "createTime": "2023-10-31T23:36:36.069577Z",
+    "updateTime": "2023-11-06T23:05:30.614442Z"
+  },
+  {
+    "name": "projects/poemaps-c9dcb/databases/(default)/documents/maps/zshNBwEcQfWVGGx1YbC0",
+    "fields": {
+      "description": {
+        "stringValue": ""
+      },
+      "id": {
+        "stringValue": "Y_r1wV4knjc"
+      },
+      "level": {
+        "integerValue": "73"
+      },
+      "image": {
+        "stringValue": "https://www.poewiki.net/images/8/83/Peninsula_Map_%28The_Forbidden_Sanctum%29_inventory_icon.png"
+      },
+      "tier": {
+        "integerValue": "6"
+      },
+      "title": {
+        "stringValue": "Peninsula"
+      },
+      "score": {
+        "arrayValue": {
+          "values": [
+            {
+              "integerValue": "5"
+            },
+            {
+              "integerValue": "4"
+            },
+            {
+              "integerValue": "2"
+            },
+            {
+              "integerValue": "4"
+            }
+          ]
+        }
+      }
+    },
+    "createTime": "2023-10-31T22:24:24.234302Z",
+    "updateTime": "2023-11-06T23:06:17.005610Z"
+  }
+]
