@@ -2,48 +2,14 @@
     <div    id="maps"
             class="pt-2"
             v-if="mapStore.getAllMaps">
-        <div    class="map p-3 mb-1 rounded"
-                @click="getMap(map)"
-                v-for="(map, mkey) in filteredMaps"
-                :key="mkey">
-            <div class="row align-items-center">
-                <div class="col col-auto text-center">
-                    <div class="img">
-                        <img    :src="map.fields.image.stringValue"
-                                class="img-fluid img-sm" />
-                    </div>
-                    <p class="small mb-0 pt-2">level: {{ map.fields.level.integerValue }}</p>
-                    <p class="small mb-0">tier: {{ map.fields.tier.integerValue }}</p>
-                </div>
-                <div class="col">
-                    <h4>{{ map.fields.title.stringValue }}</h4>
-                    <p class="mb-0 truncate">{{ map.fields.description.stringValue.length ? map.fields.description.stringValue : null }}</p>
-                    <div class="badges pt-2">
-                        <div    class="badge me-1"
-                                :class="`bg-score-${map.fields.score.arrayValue.values[0].integerValue}`">
-                            layout: {{ map.fields.score.arrayValue.values[0].integerValue }}
-                        </div>
-                        <div    class="badge me-1"
-                                :class="`bg-score-${map.fields.score.arrayValue.values[1].integerValue}`">
-                            density: {{ map.fields.score.arrayValue.values[1].integerValue }}
-                        </div>
-                        <div    class="badge me-1"
-                                :class="`bg-score-${map.fields.score.arrayValue.values[2].integerValue}`">
-                            cards: {{ map.fields.score.arrayValue.values[2].integerValue }}
-                        </div>
-                        <div    class="badge"
-                                :class="`bg-score-${map.fields.score.arrayValue.values[3].integerValue}`">
-                            boss: {{ map.fields.score.arrayValue.values[3].integerValue }}
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-3 d-none d-lg-flex">
-                    <div class="ratio ratio-16x9 overflow-hidden">
-                        <img    :src="`https://i.ytimg.com/vi/${map.fields.id.stringValue}/maxresdefault.jpg`"
-                                class="img-fluid img-center"
-                                :alt="`${map.fields.title.stringValue} map`">
-                    </div>
-                </div>
+        <div class="row">
+            <div    class="col col-12 map p-3 mb-1 rounded"
+                    :class="props.view === 'cols' ? 'col-lg-3' : null"
+                    @click="getMap(map)"
+                    v-for="(map, mkey) in filteredMaps"
+                    :key="mkey">
+                <MapList :map="map" v-if="props.view === 'list'" />
+                <MapCols :map="map" v-else />
             </div>
         </div>
     </div>
@@ -64,11 +30,17 @@
     const userStore = useUserStore()
     import { useMapStore } from '@/stores/map'
     const mapStore = useMapStore()
+    import MapList from '@/components/MapList.vue'
+    import MapCols from '@/components/MapCols.vue'
     import Modal from '@/components/Modal.vue'
     const props = defineProps({
         filter: {
             type: Object,
             default: null
+        },
+        view: {
+            type: String,
+            default: 'cols'
         }
     })
     let showModal = ref(false)
