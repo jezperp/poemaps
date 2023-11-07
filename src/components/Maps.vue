@@ -30,6 +30,8 @@
     const userStore = useUserStore()
     import { useMapStore } from '@/stores/map'
     const mapStore = useMapStore()
+    import { useCardStore } from '@/stores/card'
+    const cardStore = useCardStore()
     import MapList from '@/components/MapList.vue'
     import MapCols from '@/components/MapCols.vue'
     import Modal from '@/components/Modal.vue'
@@ -57,6 +59,12 @@
         }
         return mapStore.getAllMaps.value
     })
+    function getCards() {
+        cardStore.getCards()
+        .catch(err => {
+            console.log(err)
+        })
+    }
     function getMaps() {
         mapStore.getMaps()
         .catch(err => {
@@ -84,5 +92,6 @@
     }
     onMounted(() => {
         getMaps()
+        getCards()
     })
 </script>
