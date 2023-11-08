@@ -100,7 +100,10 @@
                         </div>
                         <select class="form-control smaller mb-0 mt-3"
                                 @change="addCard($event)">
-                            <option selected>Add card...</option>
+                            <option value=""
+                                    selected>
+                                Add card...
+                            </option>
                             <option :value="getId(card)"
                                     v-for="(card, ckey) in filteredCards"
                                     :key="ckey">
@@ -143,16 +146,21 @@
                         </div>
                         <div    class="cards pt-4"
                                 v-if="copyMap.fields.cards">
-                            <h5>Cards</h5>
-                            <div    class="card"
-                                    v-for="(card, ckey) in copyMap.fields.cards.arrayValue.values"
+                            <h4>Cards</h4>
+                            <div    class="card py-1"
+                                    v-for="(card, ckey) in sortedCards"
                                     :key="ckey">
                                 <a  :href="getCard(card).fields.link.stringValue"
                                     target="_blank"
-                                    class="text-primary">
+                                    class="text-primary text-decoration-none lead">
                                     {{ getCard(card).fields.title.stringValue }}
                                 </a>
                                 ({{ getCard(card).fields.stack.integerValue }})
+                                <a  :href="getCard(card).fields.item_link.stringValue"
+                                    target="_blank"
+                                    class="text-secondary text-decoration-none">
+                                    {{ getCard(card).fields.item_title.stringValue }}
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -163,7 +171,6 @@
 </template>
 <script setup>
     import { ref, computed, watch, onMounted } from 'vue'
-    import axios from 'axios'
     import * as bootstrap from 'bootstrap'
     import { useUserStore } from '@/stores/user'
     const userStore = useUserStore()
@@ -196,9 +203,22 @@
             return cardStore.getAllCards.value
         }
     })
+    const sortedCards = computed(() => {
+        let cards = copyMap.value.fields.cards && copyMap.value.fields.cards.arrayValue && copyMap.value.fields.cards.arrayValue.values ? copyMap.value.fields.cards.arrayValue.values : null
+        if(cards) {
+            cards.sort((a, b) => {
+                a = getCard(a)
+                b = getCard(b)
+                if(a.fields.title.stringValue < b.fields.title.stringValue) return -1
+                if(a.fields.title.stringValue > b.fields.title.stringValue) return 1
+                return 0
+            })
+        }
+        return cards
+    })
     function updateMap() {
         mapStore.updateMap(copyMap.value)
-        .then(res => {
+        .then(() => {
             emit('closeModal')
         })
         .catch(err => {
@@ -207,7 +227,7 @@
     }
     function createMap() {
         mapStore.createMap(copyMap)
-        .then(res => {
+        .then(() => {
             emit('closeModal')
         })
         .catch(err => {
@@ -224,9 +244,11 @@
         return cardItem
     }
     function addCard(e) {
-        const noval = !copyMap.value.fields.cards || copyMap.value.fields.cards && !copyMap.value.fields.cards.arrayValue || copyMap.value.fields.cards && copyMap.value.fields.cards.arrayValue && !copyMap.value.fields.cards.arrayValue.values
-        if(noval) copyMap.value.fields.cards = { arrayValue: { values: [] }}
-        copyMap.value.fields.cards.arrayValue.values.push({ stringValue: e.target.value })
+        if(e.target.value.length) {
+            const noval = !copyMap.value.fields.cards || copyMap.value.fields.cards && !copyMap.value.fields.cards.arrayValue || copyMap.value.fields.cards && copyMap.value.fields.cards.arrayValue && !copyMap.value.fields.cards.arrayValue.values
+            if(noval) copyMap.value.fields.cards = { arrayValue: { values: [] }}
+            copyMap.value.fields.cards.arrayValue.values.push({ stringValue: e.target.value })
+        }
     }
     function removeCard(card) {
         let arr = copyMap.value.fields.cards.arrayValue.values

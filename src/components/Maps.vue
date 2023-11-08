@@ -2,8 +2,18 @@
     <div    id="maps"
             class="pt-2"
             v-if="mapStore.getAllMaps">
+        <div    class="row my-2"
+                v-if="userStore.user">
+            <div class="col">
+                <button type="submit"
+                        class="btn btn-dark w-100"
+                        @click="newMap()">
+                    Create new map
+                </button>
+            </div>
+        </div>
         <div class="row">
-            <div    class="col col-12 map py-3 mb-1 rounded"
+            <div    class="col col-12 hover py-3 mb-1 rounded"
                     :class="props.view === 'cols' ? 'col-md-6 col-lg-4 col-xl-3' : null"
                     @click="getMap(map)"
                     v-for="(map, mkey) in filteredMaps"
@@ -13,16 +23,10 @@
             </div>
         </div>
     </div>
-    <button type="submit"
-            class="btn btn-dark mt-3 w-100"
-            @click="newMap()"
-            v-if="userStore.user">
-        Create new map
-    </button>
-    <Modal  :map="mapStore.getActiveMap"
-            :newMap="newModal"
-            :show="showModal"
-            @closeModal="resetModal" />
+    <MapModal   :map="mapStore.getActiveMap"
+                :newMap="newMapModal"
+                :show="showMapModal"
+                @closeModal="resetModals" />
 </template>
 <script setup>
     import { ref, computed, onMounted } from 'vue'
@@ -34,7 +38,7 @@
     const cardStore = useCardStore()
     import MapList from '@/components/MapList.vue'
     import MapCols from '@/components/MapCols.vue'
-    import Modal from '@/components/Modal.vue'
+    import MapModal from '@/components/MapModal.vue'
     const props = defineProps({
         filter: {
             type: Object,
@@ -45,8 +49,8 @@
             default: 'cols'
         }
     })
-    let showModal = ref(false)
-    let newModal = ref(false)
+    let showMapModal = ref(false)
+    let newMapModal = ref(false)
     const filteredMaps = computed(() => {
         if(props.filter) {
             return mapStore.getAllMaps.value.filter(
@@ -76,19 +80,19 @@
         const id = arr[arr.length - 1]
         mapStore.getMap(id)
         .then(() => {
-            showModal.value = true
+            showMapModal.value = true
         })
         .catch(err => {
             console.log(err)
         })
     }
     function newMap() {
-        newModal.value = true
-        showModal.value = true
+        newMapModal.value = true
+        showMapModal.value = true
     }
-    function resetModal() {
-        showModal.value = false
-        newModal.value = false
+    function resetModals() {
+        showMapModal.value = false
+        newMapModal.value = false
     }
     onMounted(() => {
         getMaps()
